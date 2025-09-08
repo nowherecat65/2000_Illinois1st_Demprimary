@@ -67,7 +67,7 @@ style.innerHTML = `
   border-color: #C9C9C9;
 }
   .overlay_window h3 {
-    background-color: #DDE6F0;
+    background-color: #6A1B1B;
   }
   .inner_window_question h3 {
     background-color: #DDE6F0;
