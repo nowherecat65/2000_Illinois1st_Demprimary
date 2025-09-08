@@ -9429,10 +9429,10 @@ campaignTrail_temp.jet_data = [{
 
 
 
-campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/Cx37ypJ.png';
-campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/5GWFW8l.png';
-campaignTrail_temp.candidate_last_name = 'Biden';
-campaignTrail_temp.running_mate_last_name = 'Democrats';
+campaignTrail_temp.candidate_image_url = 'https://i.postimg.cc/Znjjt9cT/BHO.png';
+campaignTrail_temp.running_mate_image_url = 'https://files.catbox.moe/ng8whh.png';
+campaignTrail_temp.candidate_last_name = 'Obama';
+campaignTrail_temp.running_mate_last_name = 'For Congress';
 campaignTrail_temp.running_mate_state_id = '233';
 campaignTrail_temp.player_answers = [];
 campaignTrail_temp.player_visits = [];
