@@ -13,7 +13,7 @@ $("#game_window")[0].style.backgroundColor =
 $(".container")[0].style.backgroundColor = "#6A1B1B";  // rich maroon-red, evokes political energy & South Side history
 
 
-        	document.getElementById("header").src = "https://i.imgur.com/M6pUZ4G.png";
+        	document.getElementById("header").src = "https://i.postimg.cc/3Nk8vqwm/New-Project-2025-09-08-T133225-279.png";
 
 e.HomeStateText = "Neighborhood:";
 
