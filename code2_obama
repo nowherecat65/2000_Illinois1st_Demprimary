@@ -949,7 +949,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12774,
         "fields": {
             "question": 12773,
-            "description": "We’ve got an ace up our sleeve - a Piper Cub, and a pilot to go along with it. I’ll fly around the state, stumping for myself and preaching to voters."
+            "description": "We have no choice; we have to suspend our campaign for a few days. It’s the only thing we can do here."
         }
     },
     {
@@ -957,7 +957,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12777,
         "fields": {
             "question": 12773,
-            "description": "In 1970, I used an army of kids to get my county council seat. If we’ve got the kids on our side, they can deliver papers, knock on doors, and help us spread our message in a way personal campaigning can’t."
+            "description": "Violence like this has no place in our society. I want to call Congressman Rush and share my thoughts and prayers during this really, really tough time for him and his family."
         }
     },
     {
@@ -965,7 +965,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12781,
         "fields": {
             "question": 12773,
-            "description": "Let Jimmy do his thing. Get the rich donors in our column, and we’ll have no problem funding our campaign literature."
+            "description": "You know, look… this is tragic and terrible, but we have a duty to keep our campaign going."
         }
     },
     {
@@ -2921,7 +2921,37 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12781,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.005
+            "global_multiplier": -0.101
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12783,
+        "fields": {
+            "answer": 12781,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12783,
+        "fields": {
+            "answer": 12781,
+            "candidate": 91,
+            "affected_candidate": 93,
+            "global_multiplier": 0.053
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12783,
+        "fields": {
+            "answer": 12781,
+            "candidate": 91,
+            "affected_candidate": 94,
+            "global_multiplier": 0.053
         }
     },
     {
@@ -4111,10 +4141,30 @@ campaignTrail_temp.answer_score_issue_json = [
         "model": "campaign_trail.answer_score_issue",
         "pk": 12780,
         "fields": {
+            "answer": 12774,
+            "issue": 32,
+            "issue_score": 0.1,
+            "issue_importance": 12.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12780,
+        "fields": {
             "answer": 12777,
-            "issue": 34,
-            "issue_score": 0.6,
-            "issue_importance": 1
+            "issue": 32,
+            "issue_score": 0.1,
+            "issue_importance": 12.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12780,
+        "fields": {
+            "answer": 12781,
+            "issue": 32,
+            "issue_score": -0.5,
+            "issue_importance": 12.5
         }
     },
     {
@@ -8935,7 +8985,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12774,
             "candidate": 91,
-            "answer_feedback": "With no cash to speak of, your campaign kicks off as you fly around the small state. Despite your speeches being as long as 40 minutes, you’ve gotten a following through your oration skills."
+            "answer_feedback": "News soon breaks that Huey Rush is dead. While pausing your campaign efforts for a few days might sting, to most on your team it’s the only real option."
         }
     },
     {
@@ -8944,7 +8994,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12777,
             "candidate": 91,
-            "answer_feedback": "Your <q>children’s crusade</q> proves to be effective, as young volunteers, even high school students, spread across the state, delivering position papers to as many front doors as possible."
+            "answer_feedback": "News soon breaks that Huey Rush is dead. The Chicago Tribune reports on the phone call between you and Congressman Rush, and though you hate the idea of politics in light of the tragedy, your actions here have softened the view of many older Black voters who see you as an overly ambitious, soulless politician."
         }
     },
     {
@@ -8953,7 +9003,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12781,
             "candidate": 91,
-            "answer_feedback": "Jimmy Biden is laughed out of smoke-filled rooms - you’ve got no chance, they think. Your visit to a local union boss, Bill Holayter, goes badly, too, as you tell him to shove his offer of $5000 up his ass."
+            "answer_feedback": "News soon breaks that Huey Rush is dead. While the rest of the front and even backbench of Chicago politicians take a few days to pay their respects, you’re on the campaign trail, acting like nothing happened. To many, this has only solidified their view that you are a calculating, unfeeling politican."
         }
     },
     {
