@@ -27,6 +27,22 @@ corrr = `\n<h2>THE CAMPAIGN TRAIL</h2><font id='wittyquote' size='4' color='whit
 
 selectedTheme.text_col="black"
 
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #6A1B1B;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
+
 	HistHexcolour=["#0000ff","#e81717","#9966ff","#ffcc99"];
 	HistName=["Joseph R. Biden","J. Caleb Boggs","Henry M. Majka","Herbert B. Wood"];
 	HistEV=[0,0,0,0];
