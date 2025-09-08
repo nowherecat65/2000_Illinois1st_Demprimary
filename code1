@@ -72,6 +72,9 @@ style.innerHTML = `
   .inner_window_question h3 {
     background-color: #DDE6F0;
   }
+.overlay_window {
+            height: auto;
+		}
   a:-webkit-any-link {
     color: #000000;
   }
