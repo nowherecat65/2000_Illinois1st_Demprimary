@@ -1,15 +1,17 @@
 RecReading=true
 e = campaignTrail_temp;
 
-        	nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#1f4152";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#2E2E38";     // deep charcoal with a civic tone (header)
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#DDE6F0";   // soft light blue-gray (window background)
 
-        	nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#afe4cd";
+document.getElementsByClassName("game_header")[0].style.backgroundColor = 
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
-        	document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+$("#game_window")[0].style.backgroundColor = 
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
-        	$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+$(".container")[0].style.backgroundColor = "#6A1B1B";  // rich maroon-red, evokes political energy & South Side history
 
-        	$(".container")[0].style.backgroundColor = "#91040c";
 
         	document.getElementById("header").src = "https://i.imgur.com/M6pUZ4G.png";
 
