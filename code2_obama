@@ -4,7 +4,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12761,
         "fields": {
             "priority": 0,
-            "description": "You’re expected to glide to the nomination this year - none of the possible, recognizable candidates want to run against Cale Boggs. As the only person in the field, then, you’ve been given a head start on pursuing your long shot. What will be your overarching strategy for this campaign?",
+            "description": "You’ve just filed to challenge Rep. Bobby Rush. What’s your opening message, and where would you like to launch your campaign?",
             "likelihood": 1
         }
     },
@@ -925,7 +925,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12762,
         "fields": {
             "question": 12761,
-            "description": "If they put us in a football stadium at the University of Delaware and people saw the two of us, they’d pick me. Let’s run up my image - I’m young, I’m with it, and Senator Boggs is not. Simple."
+            "description": "I–uh, I think my wife Michelle might be our best asset. She’s a South Side girl, born and raised. Let’s host a barbecue with friends and supporters, and make sure someone from the Tribune is there. I’ll talk about how she and her brother grew up here, and about the real hope I have for making life better for families like theirs."
         }
     },
     {
@@ -933,7 +933,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12763,
         "fields": {
             "question": 12761,
-            "description": "If we want any chance, any chance at all at this, we need to bring Senator Boggs down to earth. Attack him any chance we’ve got."
+            "description": "We need to open with a bang. We have some cash, right? Let’s rent a big space, and I’ll speak about how Bobby Rush is forgoing his responsibilities to this great district. We need to focus on the issues that <em>really</em> matter to the people."
         }
     },
     {
@@ -941,7 +941,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12764,
         "fields": {
             "question": 12761,
-            "description": "I will not attack Senator Boggs at all. Instead, let’s take the attack to the national Republican party - Nixon and his policy in Vietnam. Delawareans are sensitive to this topic, so let’s push on it."
+            "description": "The only way we are winning this thing is if we make a dent with older Black voters that Rush has such a grip on. I want to visit a church on 79th Street and speak to the people. If they give me a chance, I will never, ever forget it, and I will make it my mission to serve them and their needs."
         }
     },
     {
@@ -2810,8 +2810,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 12762,
             "candidate": 91,
-            "affected_candidate": 92,
-            "global_multiplier": -0.03
+            "affected_candidate": 91,
+            "global_multiplier": 0.02
         }
     },
     {
@@ -2821,7 +2821,37 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12763,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12769,
+        "fields": {
+            "answer": 12763,
+            "candidate": 91,
+            "affected_candidate": 93,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12769,
+        "fields": {
+            "answer": 12763,
+            "candidate": 91,
+            "affected_candidate": 94,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12769,
+        "fields": {
+            "answer": 12763,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": -0.0333
         }
     },
     {
@@ -2831,7 +2861,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12764,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.02
         }
     },
     {
@@ -4033,7 +4063,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12762,
             "issue": 34,
-            "issue_score": 0.5,
+            "issue_score": 0.1,
             "issue_importance": 1
         }
     },
@@ -4043,7 +4073,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12764,
             "issue": 32,
-            "issue_score": 0.7,
+            "issue_score": 0.2,
             "issue_importance": 1
         }
     },
@@ -8848,7 +8878,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12762,
             "candidate": 91,
-            "answer_feedback": "This will prove to be the cornerstone of your campaign in the months to come. Senator Boggs is a man of a different time, and you aren’t."
+            "answer_feedback": "Soon after enjoying a hot dog, you speak to the small crowd of supporters, friends, and family gathered in the backyard of Michelle's brother’s South-side home, and while you feel good about your speech, you notice only one or two newsmen. Perhaps low-key wasn’t the right way to go..."
         }
     },
     {
@@ -8857,7 +8887,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12763,
             "candidate": 91,
-            "answer_feedback": "Senator Boggs is well-liked, and Delaware politics is marked by civility - it’s a small state where everyone knows everyone else."
+            "answer_feedback": "While you don't have much money, a mix of personal contributions and nearly exhausting your Rolodex allowed you to rent the South Shore Cultural Center Ballroom for a night. Throughout the event, you were unusually aggressive toward Rush, attacking his ''all or nothing'' leadership. The message was a bit vague, but it still drew plenty of coverage. "
         }
     },
     {
@@ -8866,7 +8896,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12764,
             "candidate": 91,
-            "answer_feedback": "While Delawareans are indeed sensitive to the Vietnam War and want to see its quick end, Nixon is also relatively popular - he is projected to win the state by a large amount."
+            "answer_feedback": "Soon after, you were walking into a church with Michelle and your young daughter, Malia, in tow. Already, there had been some whispering that you were nothing short of an Uncle Tom for taking on Rush, especially among older Black voters in the district, so facing them and trying to build a relationship seemed obvious."
         }
     },
     {
