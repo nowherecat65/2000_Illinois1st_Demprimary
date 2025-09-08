@@ -938,6 +938,14 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 127631,
+        "fields": {
+            "question": 12761,
+            "description": "You know, I have plenty of friends in the faculty and among the students at the University of Chicago. It seems obvious that we should launch the campaign at Mandel Hall. I am the candidate of young people and of anyone looking for change."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 12764,
         "fields": {
             "question": 12761,
@@ -982,14 +990,6 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 12784,
             "description": "There were four people absent besides me. Even if I had been there, it wouldn’t have passed. I only see my mother once a year, and this was my chance. And the fact that you people are denigrating me for that is disgusting."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 12793,
-        "fields": {
-            "question": 12784,
-            "description": "Jimmy, that’s a great idea. If you don’t mind, I’ll come with you to these visits."
         }
     },
     {
@@ -2848,6 +2848,36 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12769,
         "fields": {
+            "answer": 127631,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": -0.0185
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12769,
+        "fields": {
+            "answer": 127631,
+            "candidate": 91,
+            "affected_candidate": 93,
+            "global_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12769,
+        "fields": {
+            "answer": 127631,
+            "candidate": 91,
+            "affected_candidate": 94,
+            "global_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12769,
+        "fields": {
             "answer": 12763,
             "candidate": 91,
             "affected_candidate": 91,
@@ -2882,6 +2912,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 91,
             "affected_candidate": 92,
             "global_multiplier": -0.0357
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12769,
+        "fields": {
+            "answer": 127631,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": 0.01
         }
     },
     {
@@ -8979,6 +9019,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 12762,
             "candidate": 91,
             "answer_feedback": "Soon after enjoying a hot dog, you speak to the small crowd of supporters, friends, and family gathered in the backyard of Michelle's brother’s South-side home, and while you feel good about your speech, you notice only one or two newsmen. Perhaps low-key wasn’t the right way to go..."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12768,
+        "fields": {
+            "answer": 127631,
+            "candidate": 91,
+            "answer_feedback": "While, of course, as a professor at the college you have plenty of connections, the photos from your launch, showing an overwhelmingly white and affluent crowd cheering you on, only underscore what Bobby Rush and his supporters have been insinuating: that you have little to no connection with the average Black, working-class voter on the South Side. "
         }
     },
     {
