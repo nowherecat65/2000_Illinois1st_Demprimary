@@ -13,7 +13,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12773,
         "fields": {
             "priority": 1,
-            "description": "As an unknown challenger strapped for cash, how will you go about bringing your message to people in the state?",
+            "description": "Uh-oh. Congressman Rush’s son, Huey, has reportedly been shot and is in critical condition. While you enjoyed a few weeks of decent coverage, this news is completely derailing your campaign. What should we do here, Barack?",
             "likelihood": 1
         }
     },
