@@ -15,6 +15,8 @@ $(".container")[0].style.backgroundColor = "#6A1B1B";  // rich maroon-red, evoke
 
         	document.getElementById("header").src = "https://i.postimg.cc/8cvCY3VD/bho-banner.png";
 
+document.body.style.backgroundSize = "cover"
+
 e.HomeStateText = "Neighborhood:";
 
         	document.body.background = "https://i.postimg.cc/KzPGrT7v/djtsfg.jpg";
