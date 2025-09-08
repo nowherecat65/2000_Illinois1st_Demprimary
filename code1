@@ -66,6 +66,12 @@ style.innerHTML = `
   border-style: double;
   border-color: #C9C9C9;
 }
+  .overlay_window h3 {
+    background-color: #DDE6F0;
+  }
+  .inner_window_question h3 {
+    background-color: #DDE6F0;
+  }
   a:-webkit-any-link {
     color: #000000;
   }
