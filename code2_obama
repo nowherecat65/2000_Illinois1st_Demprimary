@@ -40,7 +40,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12802,
         "fields": {
             "priority": 4,
-            "description": "The Vietnam War is one of the major issues plaguing the minds of Delawareans. How do you want to capitalize on this?",
+            "description": "Ministers are closing ranks behind Rush, but a few clergy members are open to you. Do you plan to try to get some more endorsements, or to rally and rely on those who have already endorsed you?",
             "likelihood": 1
         }
     },
@@ -1029,7 +1029,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12803,
         "fields": {
             "question": 12802,
-            "description": "After a bit of conventional hand-wringing about how terrible the war in Vietnam has been, Mr. Boggs added only that he wished he could have done more toward ending the war. The fact is, Mr. Boggs has done everything he could do to keep the war going, like voting for military appropriations."
+            "description": "I hate to say it, but I think a lot of Rush’s support with these leaders is paper-thin. Let’s see if we can sit down with a few and ask them to reconsider their endorsements."
         }
     },
     {
@@ -1037,7 +1037,15 @@ campaignTrail_temp.answers_json = [
         "pk": 12807,
         "fields": {
             "question": 12802,
-            "description": "For God's sake, stop the Madison Avenue, sugarcoated garbage. Don't talk to us about a generation of peace when every day hundreds of planes cut through the skies of Indochina, and countless women and children and old men run from their liberators, their flesh burned with napalm."
+            "description": "He's got his endorsements; we'll just have to accept that. That doesn't mean we don't have any, though. Father Michael Pfleger has already endorsed our campaign, and he's going to be key if we pull this thing off."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 128071,
+        "fields": {
+            "question": 12802,
+            "description": "If there’s one man who can get us out of this hole, it’s Reverend Jesse Jackson. I want to try to get him on the phone, and, uh, I don’t mind if I have to beg."
         }
     },
     {
@@ -3187,17 +3195,57 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12803,
             "candidate": 91,
             "affected_candidate": 92,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.1
         }
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 12809,
+        "pk": 12805,
         "fields": {
             "answer": 12807,
-            "candidate": 92,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": -0.09
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12805,
+        "fields": {
+            "answer": 128071,
+            "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.005
+            "global_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12805,
+        "fields": {
+            "answer": 128071,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12805,
+        "fields": {
+            "answer": 128071,
+            "candidate": 91,
+            "affected_candidate": 94,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12805,
+        "fields": {
+            "answer": 128071,
+            "candidate": 91,
+            "affected_candidate": 93,
+            "global_multiplier": 0.055
         }
     },
     {
@@ -4429,8 +4477,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12803,
             "issue": 32,
-            "issue_score": 0.6,
-            "issue_importance": 2
+            "issue_score": 0.15,
+            "issue_importance": 0.5
         }
     },
     {
@@ -4439,8 +4487,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12807,
             "issue": 32,
-            "issue_score": 0.2,
-            "issue_importance": 1
+            "issue_score": -0.15,
+            "issue_importance": 0.5
         }
     },
     {
@@ -9340,7 +9388,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12803,
             "candidate": 91,
-            "answer_feedback": "This is a point where you can needle Boggs, but be careful not to go overboard on attacks."
+            "answer_feedback": "You hold meetings with several bishops and reverends, some of whom have endorsed Rush and some who are neutral. And while you don’t bring any of them formally into your fold, several, such as Bishop Arthur Brazier, Rev. Clay Evans, and Rev. Leon Finney, have agreed to introduce you to their congregations and open their doors to you. While this didn’t work out quite the way you had hoped, it’s still better than nothing."
         }
     },
     {
@@ -9349,7 +9397,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12807,
             "candidate": 91,
-            "answer_feedback": "Your reticence to attack Boggs in this regard is noted, and will likely not help you as much, but your emotional oratory captures what many are thinking in the First State."
+            "answer_feedback": "Indeed, you do have the support of Father Michael Pfleger, someone who’s taken heat from fellow ministers for doing so. To many Rush supporters, the image of Pfleger (a white priest at a largely Black church) endorsing you speaks to their point that you have little real connection with Black folks on the South Side and, though voiced only in a whisper, that you’re not ''authentically'' Black."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12808,
+        "fields": {
+            "answer": 128071,
+            "candidate": 91,
+            "answer_feedback": "Thanks to your relationship with Jesse’s eldest daughter, Santita, who was Michelle’s maid of honor at your wedding, you manage to get Jesse on the phone quite quickly. You know he’s already all but endorsing Rush, but you plead your case… He sounds… conflicted, you think. But he shoots you down. You put down the receiver and feel a frown form on your face. Later you read the Tribune headline: ''Obama Tries to Flip Jackson.'' Somebody from the Rush campaign leaked it. Goddamn it."
         }
     },
     {
