@@ -1018,6 +1018,14 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 127992,
+        "fields": {
+            "question": 12796,
+            "description": "I think it’s appropriate for us to try to reach out and get some more endorsements. It’ll give us a few good days of press coverage and could really help convince some people who are still on the fence."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 12803,
         "fields": {
             "question": 12802,
@@ -3066,10 +3074,50 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12801,
         "fields": {
+            "answer": 127992,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12801,
+        "fields": {
+            "answer": 127992,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": -0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12801,
+        "fields": {
+            "answer": 127992,
+            "candidate": 91,
+            "affected_candidate": 93,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12801,
+        "fields": {
+            "answer": 127992,
+            "candidate": 91,
+            "affected_candidate": 94,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12801,
+        "fields": {
             "answer": 12799,
             "candidate": 91,
             "affected_candidate": 92,
-            "global_multiplier": -0.025
+            "global_multiplier": 0.025
         }
     },
     {
@@ -3497,6 +3545,16 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
+        "pk": 1095,
+        "fields": {
+            "answer": 12785,
+            "issue": 32,
+            "issue_score": 0.1,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
         "pk": 1096,
         "fields": {
             "answer": 3545,
@@ -3772,6 +3830,16 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 12799,
             "issue": 34,
             "issue_score": -0.1,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1129,
+        "fields": {
+            "answer": 127992,
+            "issue": 34,
+            "issue_score": -0.05,
             "issue_importance": 1
         }
     },
@@ -9255,6 +9323,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 12799,
             "candidate": 91,
             "answer_feedback": "Fundraising is always crucial, and you have no trouble raising money from wealthy donors throughout Cook County. However, this plays directly into the hands of the Rush campaign, which has been not-so-subtly implying that you are something of a carpetbagger and the candidate of the elite. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12800,
+        "fields": {
+            "answer": 127992,
+            "candidate": 91,
+            "answer_feedback": "You already have the support of State Rep. Tom Dart and Alderman Toni Preckwinkle, but expanding your horizons is sound. You manage to get former Senator Paul Simon on the phone, and though he remains unwilling to officially endorse your candidacy, he is more than happy to hold a few events with you and praise your record on ethics and government reform."
         }
     },
     {
