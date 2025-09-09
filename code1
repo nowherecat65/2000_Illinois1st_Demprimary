@@ -10,7 +10,7 @@ document.getElementsByClassName("game_header")[0].style.backgroundColor =
 $("#game_window")[0].style.backgroundColor = 
     nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
-$(".container")[0].style.backgroundColor = "#6A1B1B";  // rich maroon-red, evokes political energy & South Side history
+$(".container")[0].style.background = "linear-gradient(180deg, #9A5353 0%, #7F2E2E 45%, #6A1B1B 100%)";
 
 
         	document.getElementById("header").src = "https://i.postimg.cc/8cvCY3VD/bho-banner.png";
@@ -34,9 +34,18 @@ style.type = 'text/css';
 style.id = 'dynamic-style';
 
 style.innerHTML = `
-  .campaign_trail_start_emphasis {
-    background-color: #6A1B1B;
-  }
+.campaign_trail_start_emphasis{
+  background: linear-gradient(180deg, #7A2E2E 0%, #6A1B1B 100%);
+}
+#state_info h3 {
+  background-color: #DDE6F0;
+}
+#state_result h3 {
+  background-color: #DDE6F0;
+}
+#overall_result h3 {
+  background-color: #DDE6F0;
+}
 #campaign_sign {
     background-image: url("https://i.postimg.cc/D0CP08MB/o400gdt.png");
     background-size: cover;
@@ -72,9 +81,15 @@ style.innerHTML = `
   .inner_window_question h3 {
     background-color: #DDE6F0;
   }
+  #overall_result_container {
+    background-color: #DDE6F0;
+  }
 .overlay_window {
             height: auto;
 		}
+    #menu_container {
+      background-color: #DDE6F0 !important;
+    }
   a:-webkit-any-link {
     color: #000000;
   }
