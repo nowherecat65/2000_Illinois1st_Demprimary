@@ -1,7 +1,7 @@
 RecReading=true
 e = campaignTrail_temp;
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#2E2E38";     // deep charcoal with a civic tone (header)
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#2E2E38";     // deep charcoal (header)
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#DDE6F0";   // soft light blue-gray (window background)
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = 
