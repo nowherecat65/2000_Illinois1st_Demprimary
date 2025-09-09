@@ -83,8 +83,8 @@ style.innerHTML = `
 document.head.appendChild(style);
 
 
-	HistHexcolour=["#0000ff","#e81717","#9966ff","#ffcc99"];
-	HistName=["Joseph R. Biden","J. Caleb Boggs","Henry M. Majka","Herbert B. Wood"];
+	HistHexcolour=["#2E6EB5","#7D4FB2","#C64242","#4C9E58"];
+	HistName=["Bobby Rush","Barack Obama","Donne Trotter","George Roby"];
 	HistEV=[0,0,0,0];
-	HistPV=["116,006","112,844","803","175"];
-	HistPVP=["50.48%","49.1%","0.35%","0.07%"];
+	HistPV=["59,599","29,649","6,915","1,501"];
+	HistPVP=["61.03%","30.36%","7.08%","1.54%"];
