@@ -49,7 +49,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12811,
         "fields": {
             "priority": 5,
-            "description": "Valerie, your sister and campaign manager, has suggested you go on television to debate Boggs. If done correctly, she believes you could be within striking distance of the Senate seat by election day.",
+            "description": "You look around the local high school gym at the primary debate organized by the Chesterfield Community Council... You are seated at a table. To your left is George Roby, who's barely polling at 3%, and next to him is Donne Trotter, who is polling at a more respectable... 8%. The frontrunner and incumbent, Congressman Rush, has decided not to show. Roby, a retired cop, has just finished his stale introduction. The moderator looks to you. It's your turn.",
             "likelihood": 1
         }
     },
