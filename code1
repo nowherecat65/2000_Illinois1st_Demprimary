@@ -98,7 +98,7 @@ style.innerHTML = `
 document.head.appendChild(style);
 
 
-	HistHexcolour=["#4B82BF","#7D4FB2","#CA5D5F","#64AA71"];
+	HistHexcolour=["#4B82BF","#8D68BC","#CA5D5F","#64AA71"];
 	HistName=["Bobby Rush","Barack Obama","Donne Trotter","George Roby"];
 	HistEV=[0,0,0,0];
 	HistPV=["59,599","29,649","6,915","1,501"];
