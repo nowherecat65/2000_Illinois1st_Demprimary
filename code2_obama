@@ -4,12 +4,10 @@ cyoAdventure = function(a) {
     if(ans == 12781){
         campaignTrail_temp.candidate_last_name = 'Obama (write-in)';
         campaignTrail_temp.candidate_json[0]["fields"].last_name = "Obama (write-in)";
-        campaignTrail_temp.candidate_json[0]["fields"].electoral_victory_message = "<h3>Paul Simon has won the 1988 election.</h3><p>For much of the primary season, Paul Simon was a virtual unknown to people outside of Illinois and, increasingly, Iowa. His commitment to ‘old-school’, or ‘New Deal’ liberalism, and his populist views on the economy, and trade, in particular, won him a string of victories and, by April, the nomination, despite opposition from principally Al Gore, Jesse Jackson, and Michael Dukakis.</p><p>At the convention, the Senator from Illinois gave a fiery speech targeting Reaganomics and presented himself as an earnest, populist, and, yes, liberal Midwesterner, angering some in his own party. Bob Graham, the freshman and relatively moderate Senator from Florida and, before that, 2-term Governor, was chosen as his running-mate to balance the coalition.</p><p>In the general election, Simon started as the favorite, though his standing in the polls wavered increasingly as the battle played out and advertisements aired, and the race became quite tight. At crucial moments though, the Simon campaign was willing to hit back at the Bush campaign aggressively, with Simon pressing the Vice President on the debate stage for over 10 minutes on the Iran Contra scandal and his involvement. </p><p>In the end, after a day of rallying, Paul Simon returned to Chicago, Illinois, his campaign headquarters, with running mate Bob Graham as well as allies such as, Dick Durbin, Harold Hughes and other political advisors, when he heard he had won the Presidency, by about 11 PM, and he gave a rather short victory speech. Time will tell how his Presidency goes, but one thing is for certain: bowties are back.</p>";
-        campaignTrail_temp.candidate_json[0]["fields"].electoral_loss_message = "<h3>Paul Simon has lost the 1988 election.</h3><p>For much of the primary season, Paul Simon was virtually unknown to people outside of Illinois and, increasingly, Iowa. His commitment to ‘old-school’, or ‘New Deal’ liberalism, and his populist views on the economy, and trade, in particular, won him a string of victories and, by April, the nomination, despite opposition from principally Al Gore, Jesse Jackson, and Michael Dukakis.</p><p>At the convention, the Senator from Illinois gave a fiery speech targeting Reaganomics and presented himself as an earnest, populist, and, yes, liberal Midwesterner, angering some in his own party. Bob Graham, the freshman and relatively moderate Senator from Florida and, before that, 2-term Governor, was chosen as his running-mate to balance the coalition.</p><p>As it became the general election, Simon started as the favorite, though his standing in polls wavered increasingly as the battle played out, advertisements aired, and the race became tight. At crucial moments though, the Simon campaign failed to hit back at the Bush campaign, with the Vice President pressing the Illinois Senator on the debate stage nearly the entire time on his ‘Deeply Liberal’ beliefs on the economy and hit his views on the death penalty, working in part to weaken Simon’s hold on rural voters.</p><p>In the end, on the last day of campaigning, the Senator returned to his campaign headquarters in Chicago, with his running mate Bob Graham, and allies including, Dick Durbin, Harold Hughes, and other political advisors, when he found out he had lost. Many in the party now have reason to believe it will move in the direction of the ‘Atari Democrats,’ aka moderate-to-conservative Democrats. Perhaps this election will be the last stand of the ‘New Deal Democrats.’</p>";
+        campaignTrail_temp.candidate_json[0]["fields"].electoral_loss_message = "<h3>RUSH WINS BIG AGAINST TROTTER</h3><p>To the shock of no one, Bobby Rush has won. Though you proved an eager, perhaps viable challenger, your campaign collapsed quickly. Donne Trotter, who was polling in third place prior to your dropping out, ''surged'' to a weak second place, and though he was able to raise some funds, he remained an unserious challenger.<br><br>You flick through the channels on your television, sitting on the couch with Michelle. She notices a tinge of… something dark in your eyes when you see the results. She knows you still think you could’ve bested Rush if the press hadn’t forced you out of the race. You still have something to prove; you still have something to win. You feel it in your bones.<br><br>''Honey,'' she says softly, placing a hand on your arm. Just then you hear Malia crying in her room, and you stand up and go to soothe her, perhaps also to escape your wounded pride.</p>";
     }
-
     if(ans == 12781){
-        campaignTrail_temp.question_number = 13;
+        campaignTrail_temp.question_number = 14;
     }
 }
 
@@ -152,64 +150,10 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 12903,
+        "pk": 129031,
         "fields": {
             "priority": 15,
             "description": "Boggs has seemingly caved to your pressure - you’ve been invited to a debate with him at a small civic association. What will your angle be?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 12913,
-        "fields": {
-            "priority": 16,
-            "description": "As your campaign comes within striking distance of Boggs, Republicans are panicking. The New Castle County GOP chairman, seeking to paint you as dishonest when it comes to unions, has accused you of using a <q>phony union bug</q> on your literature. Valerie tells you that this is just because of a printing error, since some of your flyers are printed out-of-state. How do you respond?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 12922,
-        "fields": {
-            "priority": 17,
-            "description": "State Senator Curtis Steen, representing Dagsboro, has invited you to set up a campaign event in his district. A known conservative Democrat, he is troubled by one thing - he’s heard you’re a Catholic.",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 12932,
-        "fields": {
-            "priority": 18,
-            "description": "Another debate has been called, this time in front of Hadassah, the Jewish women’s organization. You’ve been asked a question about your stance on the Genocide Treaty, adopted by the UN in 1948 but still not ratified by the US. Boggs says he doesn’t know much about the treaty, and would go back and read up on it. What do you do with this opening?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 12940,
-        "fields": {
-            "priority": 19,
-            "description": "While you’ve used your youth to your advantage, the fact that you are only 29 has been one of the major attacks used by the now more alert Republican campaign. What will you do to counter this?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 12948,
-        "fields": {
-            "priority": 20,
-            "description": "The Wilmington Morning News has put up a front-page story of an accusation from one of your staffers. Graduate student Victor Livingston has accused you of trying to get him to write an intentionally misleading paper on Israel. He claims your position on Israel is for a settlement between the US and USSR, and for the internationalization of Jerusalem. How do you respond?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 12960,
-        "fields": {
-            "priority": 21,
-            "description": "The Boggs campaign has suddenly awoken to the idea that you are real, and that you are a threat. A full-page newspaper ad shows up just 2 days before the election, and you have no money to counter it.",
             "likelihood": 1
         }
     }
