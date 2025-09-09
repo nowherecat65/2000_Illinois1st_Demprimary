@@ -957,7 +957,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12774,
         "fields": {
             "question": 12773,
-            "description": "We have no choice; we have to suspend our campaign for a few days. It’s the only thing we can do here."
+            "description": "Uhh... We have no choice; we have to suspend our campaign for a few days. It’s the only thing we can do here."
         }
     },
     {
@@ -1710,7 +1710,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 92,
             "state": 234,
-            "state_multiplier": 1.005123
+            "state_multiplier": 0.989123
         }
     },
     {
@@ -3405,6 +3405,16 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 32,
             "issue_score": 0.8,
             "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1095,
+        "fields": {
+            "answer": 12789,
+            "issue": 32,
+            "issue_score": -0.2,
+            "issue_importance": 1
         }
     },
     {
