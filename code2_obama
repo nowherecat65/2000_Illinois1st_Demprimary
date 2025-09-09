@@ -31,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12796,
         "fields": {
             "priority": 3,
-            "description": "Television campaigning and getting in the papers is as important as ever. Will you expend funds to focus on forms of media like these?",
+            "description": "The race is getting increased press coverage, being framed as ''the Black Panther vs. the professor.'' You still have a significant deficit with many older, churchgoing voters, but according to polls, you seem to be gaining ground, albeit slightly. What should we do to capitalize on this?",
             "likelihood": 1
         }
     },
@@ -989,7 +989,15 @@ campaignTrail_temp.answers_json = [
         "pk": 12789,
         "fields": {
             "question": 12784,
-            "description": "There were four people absent besides me. Even if I had been there, it wouldn’t have passed. I only see my mother once a year, and this was my chance. And the fact that you people are denigrating me for that is disgusting."
+            "description": "There were four people absent besides me. Even if I had been there, it wouldn’t have passed. I see my mother once a year - once - and this was my chance. So if someone wants to stand here and question that, if they want to twist it into something ugly, then that tells me exactly who they are."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 127971,
+        "fields": {
+            "question": 12796,
+            "description": "We can spend all our time shaking hands. I have no problem with that. But let me be clear: the bigger issue here is Mr. Rush. I’ve heard the whispers from his campaign, and he has already made this campaign incredibly ugly."
         }
     },
     {
@@ -997,7 +1005,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12797,
         "fields": {
             "question": 12796,
-            "description": "No, no. Let the volunteers do the work. Single statewide mailing costs 36 grand, for God’s sake! We’re not made of money!"
+            "description": "We have no choice. I want to shake hands and meet everyone I can in the district. Let’s schedule afternoons in barbershops, corner groceries, and senior centers, and spend weeknights on the church circuit along 79th and 87th."
         }
     },
     {
@@ -1005,7 +1013,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12799,
         "fields": {
             "question": 12796,
-            "description": "We need to get ourselves on the map first, and then the cash’ll roll in. Get me on every single paper possible, TV, and radio. The people of Delaware are gonna see my face everywhere."
+            "description": "If we really want to finish ahead, we need all the cash we can get. I want to fundraise with people both in and outside of the district, and we can still set aside a few hours to shake hands."
         }
     },
     {
@@ -3051,7 +3059,47 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12799,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.01
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12801,
+        "fields": {
+            "answer": 12797,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12801,
+        "fields": {
+            "answer": 127971,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12801,
+        "fields": {
+            "answer": 127971,
+            "candidate": 91,
+            "affected_candidate": 93,
+            "global_multiplier": 0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12801,
+        "fields": {
+            "answer": 127971,
+            "candidate": 91,
+            "affected_candidate": 94,
+            "global_multiplier": 0.06
         }
     },
     {
@@ -3684,6 +3732,36 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 3569,
             "issue": 32,
             "issue_score": 0.45,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1129,
+        "fields": {
+            "answer": 12799,
+            "issue": 34,
+            "issue_score": -0.1,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1129,
+        "fields": {
+            "answer": 12797,
+            "issue": 34,
+            "issue_score": 0.1,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1129,
+        "fields": {
+            "answer": 127971,
+            "issue": 34,
+            "issue_score": -0.25,
             "issue_importance": 1
         }
     },
@@ -9128,7 +9206,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12797,
             "candidate": 91,
-            "answer_feedback": "A wise choice. You will need to stretch out your money as much as possible."
+            "answer_feedback": "It seems like you’re really pressing your nose to the grindstone, working as hard as you can for every vote. Aside from a few older voters who half-angrily confronted you for challenging Rush, you generally came across well and were charming to most everyone."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12798,
+        "fields": {
+            "answer": 127971,
+            "candidate": 91,
+            "answer_feedback": "You open each of your speaking spots with a shot at Rush, challenging his ''utter disinterest in coalition-building, good governance, and change.'' While this plays well with more affluent voters, you find yourself heckled on the street by food vendors and old ladies."
         }
     },
     {
@@ -9137,7 +9224,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12799,
             "candidate": 91,
-            "answer_feedback": "Your budget is below $200,000, and spending a large amount in the early days of the campaign does not help much."
+            "answer_feedback": "Fundraising is always crucial, and you have no trouble raising money from wealthy donors throughout Cook County. However, this plays directly into the hands of the Rush campaign, which has been not-so-subtly implying that you are something of a carpetbagger and the candidate of the elite. "
         }
     },
     {
