@@ -58,7 +58,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12819,
         "fields": {
             "priority": 6,
-            "description": "You’ve been invited up to Washington with Jimmy to meet with Nordy Hoffmann of the Democratic Senatorial Campaign Committee. He asks you question after question - <q>What makes you think you can win?</q> <q>Why should you be chosen?</q> What is your response?",
+            "description": "You have roughly $18,000 on hand and campaign debt is mounting. Where do you put the last dollars: a short cable TV buy, targeted Black talk radio, a districtwide mail piece, or weekend canvassers in key wards?",
             "likelihood": 1
         }
     },
@@ -1069,7 +1069,23 @@ campaignTrail_temp.answers_json = [
         "pk": 12820,
         "fields": {
             "question": 12819,
-            "description": "This is useless. Jimmy, stay here and apologize to Mr. Hoffmann. These people obviously don’t think I can win."
+            "description": "Let's uh, go with a districtwide mailer. List our endorsements, our plans on guns/clinics/jobs, and how folks can vote early. Hit every high-propensity household and follow up with volunteers calling the same list."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 128202,
+        "fields": {
+            "question": 12819,
+            "description": "Do a short TV buy. Run a few spots during news and evening blocks, plus a single 30-second contrast spot. This isn’t going to win us the race by itself, but it will put us in living rooms across the district. And, uh, see if we have any leftover funds for radio spots."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 128201,
+        "fields": {
+            "question": 12819,
+            "description": "We need a canvass surge. Let’s hire and train canvassers for two weekends in the 6th, 8th, 9th, 17th, 18th, and 19th Wards, and meet folks where they are: at ''L'' stations, in diners, coming out of church, wherever we can find voters."
         }
     },
     {
@@ -1077,7 +1093,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12823,
         "fields": {
             "question": 12819,
-            "description": "Hoffmann’s testing me, I know it. I’ll stay put. I don’t have to take this crap from him."
+            "description": "I, uh, I’m not happy with any of that. I just know we can raise more money. I can take a few days off the trail to fundraise."
         }
     },
     {
@@ -3277,7 +3293,47 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12820,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.005
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12822,
+        "fields": {
+            "answer": 128202,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": 0.065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12822,
+        "fields": {
+            "answer": 128202,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": -0.016
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12822,
+        "fields": {
+            "answer": 128201,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": 0.075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12822,
+        "fields": {
+            "answer": 12820,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": -0.025
         }
     },
     {
@@ -3287,7 +3343,37 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12823,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.01
+            "global_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12825,
+        "fields": {
+            "answer": 12823,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12825,
+        "fields": {
+            "answer": 12823,
+            "candidate": 91,
+            "affected_candidate": 94,
+            "global_multiplier": 0.0625
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12825,
+        "fields": {
+            "answer": 12823,
+            "candidate": 91,
+            "affected_candidate": 93,
+            "global_multiplier": 0.0625
         }
     },
     {
@@ -3841,6 +3927,46 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 36,
             "issue_score": -0.5,
             "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1123,
+        "fields": {
+            "answer": 128201,
+            "issue": 32,
+            "issue_score": 0.1,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1123,
+        "fields": {
+            "answer": 12819,
+            "issue": 32,
+            "issue_score": -0.2,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1123,
+        "fields": {
+            "answer": 12820,
+            "issue": 36,
+            "issue_score": 0.15,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1123,
+        "fields": {
+            "answer": 12820,
+            "issue": 32,
+            "issue_score": 0.1,
+            "issue_importance": 0.5
         }
     },
     {
@@ -9454,7 +9580,25 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12820,
             "candidate": 91,
-            "answer_feedback": "You leave, bitter at the DSCC for setting you up with a useless interview."
+            "answer_feedback": "The letter goes out to thousands of homes across the district. While the Rush campaign may decry it as ''big-money'' tactics, that’s just them coping with the fact that your numbers are looking up."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12821,
+        "fields": {
+            "answer": 128201,
+            "candidate": 91,
+            "answer_feedback": "Thanks to your efforts, you have signed up a lot of folks either to volunteer for the campaign or simply to support you, with many also putting Obama signs on their lawns or in their windows. While this doesn’t have the broad, immediate reach that TV or radio has, this might be the smart way to handle things."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12821,
+        "fields": {
+            "answer": 128202,
+            "candidate": 91,
+            "answer_feedback": "While you had to scrape the bottom of your wallet and donations from supporters to afford the spots, you filmed and subsequently aired them. This, along with earned-media reporting, has given your campaign, and your poll numbers in particular, a nice little boost, much to the chagrin of Congressman Rush."
         }
     },
     {
@@ -9463,7 +9607,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12823,
             "candidate": 91,
-            "answer_feedback": "Your instincts prove correct. Hoffmann admits he just wanted to see if you had any guts, and soon, the senatorial committee money starts flowing in."
+            "answer_feedback": "While you manage to claw nearly 10 grand from rich friends and lobbyists, and subsequently use it to send out limited mail and buy more campaign materials, the Rush campaign is all too eager to label you the candidate of the fat cats, with plunder from the richest people in the country... While it might not be entirely accurate, it still stings."
         }
     },
     {
