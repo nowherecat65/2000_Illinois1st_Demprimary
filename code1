@@ -38,13 +38,13 @@ style.innerHTML = `
   background: linear-gradient(180deg, #7A2E2E 0%, #6A1B1B 100%);
 }
 #state_info h3 {
-  background-color: #DDE6F0;
+  background-color: #813131;
 }
 #state_result h3 {
-  background-color: #DDE6F0;
+  background-color: #813131;
 }
 #overall_result h3 {
-  background-color: #DDE6F0;
+  background-color: #813131;
 }
 #campaign_sign {
     background-image: url("https://i.postimg.cc/D0CP08MB/o400gdt.png");
