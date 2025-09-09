@@ -3003,7 +3003,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12781,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.101
+            "global_multiplier": -50.101
         }
     },
     {
@@ -3013,7 +3013,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12781,
             "candidate": 91,
             "affected_candidate": 92,
-            "global_multiplier": 0.005
+            "global_multiplier": -0.005
         }
     },
     {
@@ -3023,7 +3023,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12781,
             "candidate": 91,
             "affected_candidate": 93,
-            "global_multiplier": 0.053
+            "global_multiplier": 0.51
         }
     },
     {
@@ -3033,7 +3033,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12781,
             "candidate": 91,
             "affected_candidate": 94,
-            "global_multiplier": 0.053
+            "global_multiplier": 0.51
         }
     },
     {
@@ -6226,7 +6226,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12781,
             "candidate": 91,
-            "answer_feedback": "News soon breaks that Huey Rush is dead. While the rest of the front and even backbench of Chicago politicians take a few days to pay their respects, you’re on the campaign trail, acting like nothing happened. To many, this has only solidified their view that you are a calculating, unfeeling politican."
+            "answer_feedback": "News soon breaks that Huey Rush is dead. While the rest of the front and even backbench of Chicago politicians take a few days to pay their respects, you’re on the campaign trail, acting like nothing happened. As your numbers creep backward, money dries up, and nearly every paper in the city starts to demean your candidacy, you realize the mission is pointless and decide to withdraw from the race."
         }
     },
     {
