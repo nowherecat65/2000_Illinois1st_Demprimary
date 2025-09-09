@@ -1053,7 +1053,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12812,
         "fields": {
             "question": 12811,
-            "description": "No, no, no malarkey like that. Mr. Boggs won’t accept anyways, no matter how much we pressure him. Use the money we could use on debating on getting more literature for our volunteers to push."
+            "description": "I want to, uh, keep it brief. I am a state senator representing the 13th legislative district just north of Chesterfield. But I don’t represent this area <i>right now</i>, so this may be the first time I’m meeting many of you. The first thing people usually ask me is, “Where do you get this funny name, Obama?” And they don’t always say it right. My father was from Kenya, which is where I got my name, and my mother is from Kansas, which is where I get my accent. I came to Chicago as a young man to work as a community organizer, and that’s where I really cut my teeth…"
         }
     },
     {
@@ -1061,15 +1061,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12813,
         "fields": {
             "question": 12811,
-            "description": "God, yes. I’ll even offer to pay for it."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 12814,
-        "fields": {
-            "question": 12811,
-            "description": "God, yes. I’ll even offer to pay for it."
+            "description": "I, uh, thank you all for coming out tonight. In case you don’t know me, I’m Barack Obama. I’m the state senator for the district just a little north of here, so this might be the first time you’ve seen me. Before I get carried away, I want to mention the elephant in the room: Congressman Rush decided not to show up tonight. I respect some of what he’s done in office, but his absence speaks to the kind of leader he has been. He hasn’t shown up for you…"
         }
     },
     {
@@ -2610,6 +2602,16 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 1449,
+        "fields": {
+            "answer": 12812,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 1450,
         "fields": {
             "answer": 3607,
@@ -3254,8 +3256,18 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 12813,
             "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": -0.053
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12817,
+        "fields": {
+            "answer": 12813,
+            "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.006
+            "global_multiplier": 0.007
         }
     },
     {
@@ -9415,7 +9427,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12812,
             "candidate": 91,
-            "answer_feedback": "A good idea - Boggs is unlikely to accept, as he thinks his re-election is going to be a cakewalk."
+            "answer_feedback": "And you keep going. You clearly keep it relatively light, relying on your charm and folksiness. Judging by the smiles and small laughs from the audience, it seems to have worked. Compared with the other competitors sharing the stage tonight, you come across as the most serious and the winner of the exchange."
         }
     },
     {
@@ -9424,7 +9436,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12813,
             "candidate": 91,
-            "answer_feedback": "Boggs refuses, but this refusal catches the eye of some prominent Democrats - the senator seems to be hibernating politically, and you’re creeping up on him."
+            "answer_feedback": "And you keep going. From the looks on the faces of the audience, they weren’t expecting you to dive so quickly and forcefully into your critique of Bobby Rush, but with his big polling lead and the fact he didn’t show up, it would’ve been silly to ignore it. The congressman’s office soon comes out with a statement, calling your performance ''shallow'' and even throwing in the word ''desperate.'' "
         }
     },
     {
