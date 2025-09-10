@@ -1029,7 +1029,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12820,
         "fields": {
             "question": 12819,
-            "description": "Let's uh, go with a districtwide mailer. List our endorsements, our plans on guns/clinics/jobs, and how folks can vote early. Hit every high-propensity household and follow up with volunteers calling the same list."
+            "description": "Let's go with a districtwide mailer. List our endorsements, our plans on guns/clinics/jobs, and how folks can vote early. Hit every high-propensity household and follow up with volunteers calling the same list."
         }
     },
     {
