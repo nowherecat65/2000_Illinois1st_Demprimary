@@ -1360,7 +1360,7 @@ campaignTrail_temp.states_json = [
         "fields": {
             "name": "Illinois 1st Congressional District",
             "abbr": "IL01",
-            "electoral_votes": 1,
+            "electoral_votes": 0,
             "popular_votes": 97664,
             "poll_closing_time": 15,
             "winner_take_all_flg": 0,
