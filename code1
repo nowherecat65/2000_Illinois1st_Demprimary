@@ -388,6 +388,6 @@ campaignTrail_temp.achievements = {
 
 	HistHexcolour=["#4B82BF","#8D68BC","#CA5D5F","#64AA71"];
 	HistName=["Bobby Rush","Barack Obama","Donne Trotter","George Roby"];
-	HistEV=[1,0,0,0];
+	HistEV=[0,0,0,0];
 	HistPV=["59,599","29,649","6,915","1,501"];
 	HistPVP=["61.0%","30.3%","7.0%","1.5%"];
