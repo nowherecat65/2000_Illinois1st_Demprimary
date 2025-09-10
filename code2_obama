@@ -6,11 +6,18 @@ cyoAdventure = function(a) {
         campaignTrail_temp.candidate_json[0]["fields"].last_name = "Obama (write-in)";
         campaignTrail_temp.candidate_json[0]["fields"].electoral_loss_message = "<h3>RUSH WINS BIG AGAINST TROTTER</h3><p>To the shock of no one, Bobby Rush has won. Though you proved an eager, perhaps viable challenger, your campaign collapsed quickly. Donne Trotter, who was polling in third place prior to your dropping out, ''surged'' to a weak second place, and though he was able to raise some funds, he remained an unserious challenger.<br><br>You flick through the channels on your television, sitting on the couch with Michelle. She notices a tinge of… something dark in your eyes when you see the results. She knows you still think you could’ve bested Rush if the press hadn’t forced you out of the race. You still have something to prove; you still have something to win. You feel it in your bones.<br><br>''Honey,'' she says softly, placing a hand on your arm. Just then you hear Malia crying in her room, and you stand up and go to soothe her, perhaps also to escape your wounded pride.</p>";
     }
+    if (ans === 12781) {
+        primaryloss += 1;
+    }
+    if (primaryloss == 1) {
+        ctsAchievement("Early Exit");
+    }
     if(ans == 12781){
         campaignTrail_temp.question_number = 14;
     }
 }
 
+var primaryloss = 0;
 
 campaignTrail_temp.questions_json = [
     {
@@ -1353,9 +1360,9 @@ campaignTrail_temp.states_json = [
         "fields": {
             "name": "Illinois 1st Congressional District",
             "abbr": "IL01",
-            "electoral_votes": 0,
+            "electoral_votes": 1,
             "popular_votes": 97664,
-            "poll_closing_time": 5,
+            "poll_closing_time": 15,
             "winner_take_all_flg": 0,
             "election": 10
         }
@@ -6903,7 +6910,7 @@ campaignTrail_temp.candidate_image_url = 'https://i.postimg.cc/Znjjt9cT/BHO.png'
 campaignTrail_temp.running_mate_image_url = 'https://files.catbox.moe/ng8whh.png';
 campaignTrail_temp.candidate_last_name = 'Obama';
 campaignTrail_temp.running_mate_last_name = 'For Congress';
-campaignTrail_temp.running_mate_state_id = '233';
+campaignTrail_temp.running_mate_state_id = '234';
 campaignTrail_temp.player_answers = [];
 campaignTrail_temp.player_visits = [];
 campaignTrail_temp.answer_feedback_flg = 1;
