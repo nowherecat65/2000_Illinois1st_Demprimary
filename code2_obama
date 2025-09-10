@@ -97,7 +97,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12835,
         "fields": {
             "priority": 8,
-            "description": "The South Side Irish Parade is drawing cameras and a big local turnout. A walk there would help in the 19th Ward, but it may cause some contention among older Black voters. Do you march in the parade with Tom Dart, the local state representative and a supporter, or skip it to spend your time directly meeting voters?",
+            "description": "The South Side Irish Parade is drawing cameras and a big local turnout. A walk there would help in the (white majority) 19th Ward, but it may cause some contention among older Black voters. Do you march in the parade with Tom Dart, the local state representative and a supporter, or skip it to spend your time directly meeting voters?",
             "likelihood": 1
         }
     },
