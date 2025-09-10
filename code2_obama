@@ -1061,7 +1061,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12827,
         "fields": {
             "question": 12826,
-            "description": "Boggs is a helluva nice guy, but he’s old-fashioned. Get some ads up on the papers - I’m in touch with the issues of the day, and he’s not."
+            "description": "Look, this is all becoming really, really ridiculous. I worked for years as a community organizer on the South Side. I know this community. In 1992, I worked with Project Vote to register a hundred thousand Black folks to vote."
         }
     },
     {
@@ -1069,7 +1069,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12828,
         "fields": {
             "question": 12826,
-            "description": "I’m someone you can trust when it comes to the issues of the day. I’m an outsider - someone who always says who he believes. Hammer on that."
+            "description": "We have to address it plainly. Let’s cut an ad and I’ll talk about my experience growing up as a Black kid with a funny last name, and my work here in Chicago fighting for the people. I-uh, know I’m more real than either of the bozos I’m running against."
         }
     },
     {
@@ -1077,7 +1077,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12829,
         "fields": {
             "question": 12826,
-            "description": "I don’t need to. Focus on the issues, and the young voters will come. They can see clear as day who’s younger than who."
+            "description": "I don’t need to. Let’s keep our focus on the issues. Bobby Rush has failed this district; he has failed to build broad coalitions, and he has failed to communicate with everyday folks. I want the people of Illinois’s 1st to reject his cynical politics."
         }
     },
     {
@@ -3333,7 +3333,27 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12828,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12833,
+        "fields": {
+            "answer": 12829,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12833,
+        "fields": {
+            "answer": 12829,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": -0.005
         }
     },
     {
@@ -4635,8 +4655,28 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12828,
             "issue": 34,
-            "issue_score": 0.4,
+            "issue_score": 0.05,
             "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12832,
+        "fields": {
+            "answer": 12829,
+            "issue": 33,
+            "issue_score": 0.05,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12832,
+        "fields": {
+            "answer": 12829,
+            "issue": 34,
+            "issue_score": 0.05,
+            "issue_importance": 0.5
         }
     },
     {
@@ -4715,7 +4755,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12827,
             "issue": 34,
-            "issue_score": 0.5,
+            "issue_score": 0.2,
             "issue_importance": 1
         }
     },
@@ -4826,6 +4866,72 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 91,
             "affected_candidate": 91,
             "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12319,
+        "fields": {
+            "answer": 12828,
+            "state": 234,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "state_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12319,
+        "fields": {
+            "answer": 12828,
+            "state": 234,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12319,
+        "fields": {
+            "answer": 12827,
+            "state": 234,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "state_multiplier": 0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12319,
+        "fields": {
+            "answer": 12827,
+            "state": 234,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "state_multiplier": -0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12319,
+        "fields": {
+            "answer": 12829,
+            "state": 234,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12319,
+        "fields": {
+            "answer": 12829,
+            "state": 234,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "state_multiplier": 0.001
         }
     },
     {
@@ -6470,7 +6576,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12829,
             "candidate": 91,
-            "answer_feedback": "This is a decent strategy, but your family and campaign is disappointed at your hesitance to hammer Boggs on age. Valerie tells you it would have given you some points among youth. No harm, no foul, though."
+            "answer_feedback": "Needless to say, you seem perturbed, and the aggressiveness of your statement has earned you a lot of free media. The Rush campaign quickly moves to return fire, saying that you are the one who failed: failed to present a meaningful case for your candidacy and failed to present yourself honestly to voters. The irony. He makes you sick."
         }
     },
     {
@@ -6479,7 +6585,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12828,
             "candidate": 91,
-            "answer_feedback": "<q>Trust</q> is a word that comes up in sentences comparing your age with Boggs’s. Pressing your outsider appeal is somewhat effective, but Boggs, as an elder statesman, is much more respected than you."
+            "answer_feedback": "Though you can’t afford much of <em>anything</em> in the way of ads, you film one in which you discuss your life and try to level with viewers, saying, with a hint of a smile: ''You know, when I walk into a barbershop on the South Side, nobody asks me if I’m really Black.'' According to your team, it’s gold, and you decide to bring that line into your stump speech."
         }
     },
     {
@@ -6578,7 +6684,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12827,
             "candidate": 91,
-            "answer_feedback": "Your campaign whips up a slogan - <q>He understands what’s happening today</q>, comparing your being in touch with issues like heroin or crime to issues when Boggs was first elected, like McCarthyism and polio. This seems to work wonders."
+            "answer_feedback": "Everything you said is true, but remember that a big part of a campaign is to show, not tell. With all the words going back and forth between all the candidates, your response gets a bit lost in the mix. That said, it’s better than nothing."
         }
     },
     {
