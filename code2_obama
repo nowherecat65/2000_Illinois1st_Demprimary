@@ -6432,7 +6432,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12789,
             "candidate": 91,
-            "answer_feedback": "You soon gave an interview to one of the non-descript reporters running around the Capitol. The reporter writes about the anger on your face and the moral indignation in your voice. While you might have a good point, this comes across as cold and self-centered to many readers."
+            "answer_feedback": "You soon gave an interview to one of the non-descript reporters running around the Capitol. The reporter writes about the anger on your face and the moral indignation in your voice. While you might have a good point, this comes across as cold and self-centered to many voters."
         }
     },
     {
