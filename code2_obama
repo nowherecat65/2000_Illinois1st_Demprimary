@@ -1076,7 +1076,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12828,
         "fields": {
             "question": 12826,
-            "description": "We have to address it plainly. Let’s cut an ad and I’ll talk about my experience growing up as a Black kid with a funny last name, and my work here in Chicago fighting for the people. I-uh, know I’m more real than either of the bozos I’m running against."
+            "description": "We have to address it plainly. Let’s cut a radio ad and I’ll talk about my experience growing up as a Black kid with a funny last name, and my work here in Chicago fighting for the people. I-uh, know I’m more real than either of the bozos I’m running against."
         }
     },
     {
@@ -6592,7 +6592,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12828,
             "candidate": 91,
-            "answer_feedback": "Though you can’t afford much of <em>anything</em> in the way of ads, you film one in which you discuss your life and try to level with viewers, saying, with a hint of a smile: ''You know, when I walk into a barbershop on the South Side, nobody asks me if I’m really Black.'' According to your team, it’s gold, and you decide to bring that line into your stump speech."
+            "answer_feedback": "Though you can’t afford much of <em>anything</em> in the way of ads, you cut a radio spot where you talk about your life and level with listeners, saying, with a hint of a smile in your voice: ''You know, when I walk into a barbershop on the South Side, nobody asks me if I’m really Black.'' According to your team, it’s gold, and you start working that line into your stump speech."
         }
     },
     {
