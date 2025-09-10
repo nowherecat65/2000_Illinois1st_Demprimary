@@ -370,9 +370,24 @@ style.innerHTML = `
 
 document.head.appendChild(style);
 
+// Achievements
+
+campaignTrail_temp.achievements = {
+    "Congressman Obama" : {
+        "image" : "https://i.postimg.cc/qqhdZV74/congressmanobama.png",
+        "description" : "Beat Bobby Rush, and win the primary.",
+        "cannotBeCheated" : true
+  },
+
+   "Early Exit" : {
+        "image" : "https://i.postimg.cc/654vC8t1/loser.png",
+        "description" : "Drop out of the race.",
+        "cannotBeCheated" : true
+    }
+}
 
 	HistHexcolour=["#4B82BF","#8D68BC","#CA5D5F","#64AA71"];
 	HistName=["Bobby Rush","Barack Obama","Donne Trotter","George Roby"];
-	HistEV=[0,0,0,0];
+	HistEV=[1,0,0,0];
 	HistPV=["59,599","29,649","6,915","1,501"];
 	HistPVP=["61.0%","30.3%","7.0%","1.5%"];
