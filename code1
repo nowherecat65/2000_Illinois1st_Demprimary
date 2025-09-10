@@ -212,7 +212,7 @@ musicMode = () => {
     
       var soundtracks = {
           0: {
-              name: "Obama vs. Rush 2000.",
+              name: "Obama vs. Rush 2000",
               tracklist: [
                 {
                "name": "The 6th Sense - Common",
