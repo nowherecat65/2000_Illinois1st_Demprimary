@@ -81,7 +81,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12826,
         "fields": {
             "priority": 7,
-            "description": "If elected, you would be the youngest Senator, at only 29 years old. Boggs, on the other hand, is old, having been in Congress since 1946. How do you plan on capitalizing on your youth?",
+            "description": "Barack, we have to address this: Rep. Rush is telling reporters you ''went to Harvard and became an educated fool,'' and Donne Trotter says some see you as ''the white man in blackface.'' It’s increasingly clear they’re willing to turn this race into a mud fight. How should we respond?",
             "likelihood": 1
         }
     },
