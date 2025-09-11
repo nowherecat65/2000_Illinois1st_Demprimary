@@ -122,7 +122,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12855,
         "fields": {
             "priority": 10,
-            "description": "While your anti-war position on Vietnam is clear, one thing is not - what is your stance on those who evaded the draft? Democrats, especially on the left, advocate for their pardon, but many are curious on how you, a self-styled moderate, think.",
+            "description": "The Chicago Housing Authority’s ‘‘Plan for Transformation’’ is a controversial initiative to clear high-rise public housing and relocate families with vouchers, with a promised right-to-return to mixed-income replacement housing. Leaders across the district want your position. Are you going to demand a pause until replacements are ready? Back the plan? Denounce it? Or simply ignore it?",
             "likelihood": 1
         }
     },
