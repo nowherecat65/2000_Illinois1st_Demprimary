@@ -1139,7 +1139,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1285012,
         "fields": {
             "question": 12848,
-            "description": "Jobs and justice: When I was a community organizer during the height of Reaganomics, I helped displaced workers in neighborhoods struggling after steel mill closures. I lobbied City Hall to build an employment center, and I led a sit-in to demand asbestos cleanup in two public housing projects. Now, I’m not Superman. It wasn’t just me. But I stood with folks and used my voice to lift up their struggles. I want to do the same as your congressman."
+            "description": "Jobs & justice: When I was a community organizer during the height of Reaganomics, I helped displaced workers in neighborhoods struggling after steel mill closures. I lobbied City Hall to build an employment center, and I led a sit-in to demand asbestos cleanup in two public housing projects. Now, I’m not Superman. It wasn’t just me. But I stood with folks and used my voice to lift up their struggles. I want to do the same as your congressman."
         }
     },
     {
