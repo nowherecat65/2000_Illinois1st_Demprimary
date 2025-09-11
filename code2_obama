@@ -140,7 +140,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12877,
         "fields": {
             "priority": 12,
-            "description": "While Delaware is still a very white state, there is a sizable chunk of minority voters in the Brandywine valley. With race and civil rights being one of the most heated topics of the last 5 years, what do you have to say about it?",
+            "description": "Barack, we have some great news. A source from the Chicago Tribune reached out and has let us know that they intend to endorse your candidacy in tomorrow's paper. Needless to say, this is going to help our campaign.",
             "likelihood": 1
         }
     },
@@ -1203,23 +1203,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12878,
         "fields": {
             "question": 12877,
-            "description": "In front of white voters, let’s not say a thing. In front of minority voters, though, I’ll affirm my support for civil rights. That’s the best of both worlds."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 12881,
-        "fields": {
-            "question": 12877,
-            "description": "I do not support busing, let’s get that out of the way first. It’s a phony issue that only white liberals care about. However, I am against racial violence of any kind. I cannot see the justification behind the killing of a white deaf mute for a nickel or the tarring and feathering of an old black woman, unlike some other politicians."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 12882,
-        "fields": {
-            "question": 12877,
-            "description": "No, there’s too much to lose. Besides, civil rights isn’t that important this year."
+            "description": "Are you kidding? This is the best news I’ve heard… well, probably during this entire race. I think we really have a chance to pull this thing off. But, uh, let’s not get caught up in the good news. We need to be hitting the trail even harder in the coming days."
         }
     },
     {
@@ -3571,7 +3555,37 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12878,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.01
+            "global_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12888,
+        "fields": {
+            "answer": 12878,
+            "candidate": 91,
+            "affected_candidate": 93,
+            "global_multiplier": -0.051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12888,
+        "fields": {
+            "answer": 12878,
+            "candidate": 91,
+            "affected_candidate": 94,
+            "global_multiplier": -0.051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12888,
+        "fields": {
+            "answer": 12878,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": -0.2
         }
     },
     {
@@ -6935,7 +6949,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12878,
             "candidate": 91,
-            "answer_feedback": "You are caught red-handed on this tactic by the press. This will hurt your image of trustworthiness."
+            "answer_feedback": "The next day, you see it printed in the Tribune: ''BARACK OBAMA FOR CONGRESS'' Below, the editorial board writes, ''When Bobby Rush ran against Rep. Charles Hayes eight years ago, he said it was time for a change. He was right, and he won a seat in Congress on that message. That sentiment, sadly, is correct today. It’s time for a change in the 1st Congressional District.'' You resist the urge to celebrate. You get up early to hit the trail, though you can’t deny you feel elated."
         }
     },
     {
