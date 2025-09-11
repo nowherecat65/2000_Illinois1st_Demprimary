@@ -376,9 +376,9 @@ document.head.appendChild(style);
 // Achievements
 
 campaignTrail_temp.achievements = {
-    "Congressman Obama" : {
+    "The Big Dog" : {
         "image" : "https://i.postimg.cc/qqhdZV74/congressmanobama.png",
-        "description" : "Beat Bobby Rush, and win the primary.",
+        "description" : "President Clinton stays out of the race.",
         "cannotBeCheated" : true
   },
 
