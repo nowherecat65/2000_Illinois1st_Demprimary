@@ -31,6 +31,9 @@ cyoAdventure = function(a) {
     if (ans === 12763) {
         nice += 1;
     }
+    if (ans === 12764) {
+        nice += 1;
+    }
     if (ans === 12774) {
         nice += 1;
     }
@@ -69,6 +72,9 @@ cyoAdventure = function(a) {
     }
     if (primaryloss == 1) {
         ctsAchievement("Early Exit");
+    }
+    if (nice == 10) {
+        ctsAchievement("The Big Dog");
     }
     if(ans == 12781){
         campaignTrail_temp.question_number = 15;
