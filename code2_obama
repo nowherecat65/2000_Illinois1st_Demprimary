@@ -1147,7 +1147,23 @@ campaignTrail_temp.answers_json = [
         "pk": 12856,
         "fields": {
             "question": 12855,
-            "description": "I think pardoning draft dodgers wouldn’t be pragmatic. While the war must end and our boys must come home, pardoning people who fled the country to avoid service would not send the right message. You might disagree with me, but at least you’ll know where I stand.\n"
+            "description": "I don’t believe in a my-way-or-the-highway style of leadership. We need to be pragmatic. It’s imperative that demolition and redevelopment proceed, with strict but fair guardrails to protect people."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 128561,
+        "fields": {
+            "question": 12855,
+            "description": "I completely back the plan. I know people may have concerns, but I trust Mayor Daley and the city to do the right thing here. We have construction workers and many others ready to do their jobs."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1285612,
+        "fields": {
+            "question": 12855,
+            "description": "Uh, I know this is important to some people, but it’s not my role to play politics here. No comment from us."
         }
     },
     {
@@ -1155,7 +1171,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12861,
         "fields": {
             "question": 12855,
-            "description": "All who evaded the draft should be given pardons - we should have never gone into the Vietnam War in the first place, and I sure as hell don’t blame people for not wanting to fight there. To heal our country from the stain of Vietnam, amnesty should be the first step."
+            "description": "Uh, I’m joining thousands of working families in demanding a pause, at least until replacements are ready. We cannot gamble with people’s lives here."
         }
     },
     {
@@ -3465,7 +3481,57 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12856,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.03
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12860,
+        "fields": {
+            "answer": 128561,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12860,
+        "fields": {
+            "answer": 1285612,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": -0.051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12860,
+        "fields": {
+            "answer": 1285612,
+            "candidate": 91,
+            "affected_candidate": 93,
+            "global_multiplier": 0.033
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12860,
+        "fields": {
+            "answer": 1285612,
+            "candidate": 91,
+            "affected_candidate": 94,
+            "global_multiplier": 0.033
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12860,
+        "fields": {
+            "answer": 12861,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": 0.0075
         }
     },
     {
@@ -4817,18 +4883,28 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12856,
             "issue": 34,
+            "issue_score": 0.15,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12858,
+        "fields": {
+            "answer": 128561,
+            "issue": 34,
             "issue_score": -0.1,
             "issue_importance": 1
         }
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 12859,
+        "pk": 12858,
         "fields": {
-            "answer": 12856,
-            "issue": 32,
-            "issue_score": -0.1,
-            "issue_importance": 1
+            "answer": 1285612,
+            "issue": 34,
+            "issue_score": -0.5,
+            "issue_importance": 0.5
         }
     },
     {
@@ -4837,7 +4913,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12861,
             "issue": 34,
-            "issue_score": 0.9,
+            "issue_score": 0.35,
             "issue_importance": 1
         }
     },
@@ -6769,7 +6845,25 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12856,
             "candidate": 91,
-            "answer_feedback": "This is a good message. While unpopular with the youth electorate, you’ve still kept them by hitting on the theme of honesty. You’ve also broadened your appeal by a bit."
+            "answer_feedback": "This seems like a natural position for you to take, and one that your base of more affluent, business-minded folks agrees with. That said, Congressman Rush, who is calling strongly for a pause, is eager to paint you as a stooge for big business, eager to kick poor people out of their homes."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12857,
+        "fields": {
+            "answer": 128561,
+            "candidate": 91,
+            "answer_feedback": "Mayor Daley and the city government certainly appreciate the support, but this is a tone-deaf position to take. The South Side is overwhelmingly working class and poor, and this simply comes across as insensitive, especially coming from you, the Hyde Park professor."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12857,
+        "fields": {
+            "answer": 1285612,
+            "candidate": 91,
+            "answer_feedback": "What are you doing, Barack? Sure, as a potential Congressman this isn’t exactly in your purview, but it’s still an extremely important issue. Rush later tells a reporter, ‘‘We really don’t know what Senator Obama believes… he wibble-wobbles.’’ "
         }
     },
     {
@@ -6778,7 +6872,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12861,
             "candidate": 91,
-            "answer_feedback": "This is what people expected a young Democrat to say. Youth voters are moved to your column, but you’ve alienated a few conservatives."
+            "answer_feedback": "You’ve joined Bobby Rush in advocating for a pause. The Congressman is eager to imply that you are staking your position here merely for political reasons, though you could always say the same about him."
         }
     },
     {
