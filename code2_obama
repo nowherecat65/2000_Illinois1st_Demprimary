@@ -106,7 +106,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12848,
         "fields": {
             "priority": 9,
-            "description": "As your campaign picks up steam, thirteen multi-millionaires have invited you for cocktails. They offer you $20,000, if only you reverse your rhetoric on tax reform and capital gains. Do you accept?",
+            "description": "Another day, another rally. As you get closer and closer to primary night, you feel the tension beginning to radiate more and more. You’re at the mic at Simeon Career Academy, about to speak to a small crowd. What do you talk about today?",
             "likelihood": 1
         }
     },
@@ -1108,7 +1108,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12849,
         "fields": {
             "question": 12848,
-            "description": "No. I won’t do it - I need to show people they can trust me. There’s no room for this malarkey."
+            "description": "Gun violence & firearms: we have to close loopholes, improve background checks, and secure funding for community anti-violence work. The, uh, tragic death of Huey Rush only underscores how vital this is."
         }
     },
     {
@@ -1116,7 +1116,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12850,
         "fields": {
             "question": 12848,
-            "description": "Ah, hell. We’re strapped for cash anyways. What’s there to lose?"
+            "description": "Healthcare access: we need to expand clinics all over the South Side, lower prescription costs, and widen coverage for children. If you elect me to Congress, this will be my mission in Washington. I will work with any president and any colleague to get it done, because it’s the right thing to do."
         }
     },
     {
@@ -3402,7 +3402,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12850,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.1
+            "global_multiplier": 0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12854,
+        "fields": {
+            "answer": 12849,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": 0.001
         }
     },
     {
@@ -3766,6 +3776,16 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 34,
             "issue_score": -0.15,
             "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1109,
+        "fields": {
+            "answer": 12849,
+            "issue": 32,
+            "issue_score": 0.15,
+            "issue_importance": 1.5
         }
     },
     {
@@ -4713,9 +4733,9 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 12853,
         "fields": {
             "answer": 12850,
-            "issue": 33,
-            "issue_score": -0.1,
-            "issue_importance": 1
+            "issue": 36,
+            "issue_score": 0.2,
+            "issue_importance": 1.5
         }
     },
     {
@@ -6640,7 +6660,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12849,
             "candidate": 91,
-            "answer_feedback": "This may have been for the best. Although you could have done with the extra campaign funds, compromising your beliefs doesn’t play well with the public."
+            "answer_feedback": "The crowd claps and eats up your rhetoric. While Congressman Rush has the advantage on guns, perhaps cynically given the unspeakable tragedy that befell his family, there’s nothing wrong with relying on it."
         }
     },
     {
@@ -6649,7 +6669,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12850,
             "candidate": 91,
-            "answer_feedback": "People take notice of your reversal on taxes, and the slew of new advertising. While you do get your name out there, there’s no doubt about it - you’ve sold out."
+            "answer_feedback": "As you get more and more comfortable campaigning across the District, you find that nothing puts you in your element quite like discussing healthcare. It’s clearly a passion of yours, and the crowd before you, not to mention most voters, seems to be picking up on it."
         }
     },
     {
