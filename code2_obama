@@ -1485,7 +1485,7 @@ campaignTrail_temp.states_json = [
             "abbr": "IL01",
             "electoral_votes": 0,
             "popular_votes": 97664,
-            "poll_closing_time": 15,
+            "poll_closing_time": 13,
             "winner_take_all_flg": 0,
             "election": 10
         }
