@@ -37,6 +37,9 @@ cyoAdventure = function(a) {
     if (ans === 12875) {
         nice += 1;
     }
+    if (ans === 128951) {
+        nice += 1;
+    }
     if (ans === 12861) {
         nice += 1;
     }
