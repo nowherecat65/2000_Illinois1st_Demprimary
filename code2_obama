@@ -97,7 +97,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12835,
         "fields": {
             "priority": 8,
-            "description": "The South Side Irish Parade is drawing cameras and a big local turnout. A walk there would help in the (white majority) 19th Ward, but it may cause some contention among older Black voters. Do you march in the parade with Tom Dart, the local state representative and a supporter, or skip it to spend your time directly meeting voters?",
+            "description": "The South Side Irish Parade is drawing cameras and a big local turnout. A walk there would help in the (majority white) 19th Ward, but it may cause some contention among older Black voters. Do you march in the parade with Tom Dart, the local state representative and a supporter, or skip it to spend your time directly meeting voters?",
             "likelihood": 1
         }
     },
@@ -1092,7 +1092,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12836,
         "fields": {
             "question": 12835,
-            "description": "Governor Shapp’s Jewish, right? We’ve got a large Jewish community here, and I don’t know them too well. Get him down here to talk to the Jews of Delaware."
+            "description": "I know this is going to alienate some folks, but they’re never going to vote for me anyway. Let’s attend. We can shore up the white vote and get some good press."
         }
     },
     {
@@ -1100,15 +1100,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12841,
         "fields": {
             "question": 12835,
-            "description": "I’d love an endorsement from Governor Shapp. I’m sure he’ll accept."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 12844,
-        "fields": {
-            "question": 12835,
-            "description": "Governor Shapp’s done a good job dealing with Hurricane Agnes this year. It’s still fresh in the minds of Delawareans, so why not have him connect me with his disaster relief efforts?"
+            "description": "Uh, well, I don't think that's best for our image right now. I have nothing but respect for Irish Americans, but Black voters are going to decide this race."
         }
     },
     {
@@ -3389,8 +3381,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 12841,
             "candidate": 91,
-            "affected_candidate": 91,
-            "global_multiplier": 0.003
+            "affected_candidate": 92,
+            "global_multiplier": -0.015
         }
     },
     {
@@ -3933,6 +3925,26 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 12819,
             "issue": 32,
             "issue_score": -0.2,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1123,
+        "fields": {
+            "answer": 12841,
+            "issue": 34,
+            "issue_score": 0.15,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1123,
+        "fields": {
+            "answer": 12836,
+            "issue": 34,
+            "issue_score": -0.15,
             "issue_importance": 1
         }
     },
@@ -6601,7 +6613,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12836,
             "candidate": 91,
-            "answer_feedback": "Shapp’s acceptance and arrival at the Hotel du Pont in Wilmington, as well as a Jewish wedding at the Brandywine Country Club, energizes Jewish voters, excited to see a Jewish governor campaigning for Biden."
+            "answer_feedback": "You walk the parade route alongside Tom Dart, shaking what feels like two million hands and flashing your pearly-white grin as reporters snap pictures. You charm people lining the route, telling them, ''You know, on my mother’s side, I have Irish roots. I feel really at home.'' "
         }
     },
     {
@@ -6610,7 +6622,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12841,
             "candidate": 91,
-            "answer_feedback": "Shapp endorses you, but you wonder if you could have done more with him."
+            "answer_feedback": "Tom Dart is disappointed that you didn’t join him for the parade, but some on your campaign, including your campaign manager, Dan Shomon, thought it may be just a tad too on the nose while you are actively facing contentious accusations that you aren’t authentically in tune with Black residents of the district."
         }
     },
     {
