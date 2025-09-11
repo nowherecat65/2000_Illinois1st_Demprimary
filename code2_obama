@@ -73,7 +73,7 @@ cyoAdventure = function(a) {
     if (primaryloss == 1) {
         ctsAchievement("Early Exit");
     }
-    if (nice == 10) {
+    if(ans == 12900251){
         ctsAchievement("The Big Dog");
     }
     if(ans == 12781){
@@ -366,86 +366,6 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 406,
             "description": "This is an issue that has been blown way out of proportion. In many of these cases, I've proposed my own alternative to a given bill, and Congress has acted on it."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3565,
-        "fields": {
-            "question": 406,
-            "description": "The Democrats, with their huge majorities, have passed bill after bill outside of the American mainstream. I've been left with little choice."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3566,
-        "fields": {
-            "question": 406,
-            "description": "Congress is simply too liberal to be a useful partner in government right now. I hope that the American people will elect Republican congressman to be my partners over the next four years."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3567,
-        "fields": {
-            "question": 407,
-            "description": "The American people deserve to hear the truth. I support this strategy."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3568,
-        "fields": {
-            "question": 407,
-            "description": "Maybe some limited spots, asking if we really know who Jimmy Carter is. Or attacking him on one of these issues. But let's not go overboard."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3569,
-        "fields": {
-            "question": 407,
-            "description": "The problem is, if we go negative against Carter, he's sure to hammer us on the Nixon pardon. We really have a lot to lose here."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3570,
-        "fields": {
-            "question": 408,
-            "description": "This is great. We need any good news we can get at this point."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3571,
-        "fields": {
-            "question": 408,
-            "description": "I will hold a press conference and remind people that we really don't know anything about this guy. What other hidden, perverse notions does he have?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3572,
-        "fields": {
-            "question": 409,
-            "description": "If they put us in a football stadium at the University of Delaware and people saw the two of us, they’d pick me. Let’s run up my image - I’m young, I’m with it, and Senator Boggs is not. Simple."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3573,
-        "fields": {
-            "question": 409,
-            "description": "Bob Dole is the type of Republican that the entire party can get behind, and he has served his home state of Kansas well."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3584,
-        "fields": {
-            "question": 428,
-            "description": "I disagree strongly and believe that General Brown should be removed from this position for such comments. Israel is one of our most valued allies."
         }
     },
     {
