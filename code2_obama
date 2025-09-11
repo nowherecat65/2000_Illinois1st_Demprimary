@@ -1,3 +1,10 @@
+function ctsAchievement(achievement, difficultyChecker = true){
+	if ((difficultyChecker && campaignTrail_temp.difficulty_level_multiplier<=1)||!difficultyChecker)
+		if(campaignTrail_temp.CTS){
+		unlockAchievement(achievement);
+	}
+}
+
 campaignTrail_temp.cyoa = true
 cyoAdventure = function(a) {
  ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
@@ -5080,7 +5087,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 234,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": -0.2591
+            "state_multiplier": -0.2687
         }
     },
     {
@@ -5091,7 +5098,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 234,
             "candidate": 91,
             "affected_candidate": 94,
-            "state_multiplier": 0.349
+            "state_multiplier": 0.351
         }
     },
     {
@@ -5113,7 +5120,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 234,
             "candidate": 91,
             "affected_candidate": 93,
-            "state_multiplier": 0.1532
+            "state_multiplier": 0.1587
         }
     },
     {
