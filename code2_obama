@@ -131,7 +131,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12865,
         "fields": {
             "priority": 11,
-            "description": "You’ve been given a helping hand - despite your joking around about the Bidens and the Kennedys, such as that <q>they don’t play football the way we play football</q>, Senator Ted Kennedy, the Democratic titan, has agreed to campaign with you.",
+            "description": "''Chicago Tonight'' on WTTW is hosting a debate! Unlike your last one, Congressman Rush is expected to attend, while the barely alive Roby campaign is being excluded. Needless to say, the stakes are noticeably higher. How do you want to approach this?",
             "likelihood": 1
         }
     },
