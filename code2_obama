@@ -16,7 +16,7 @@ cyoAdventure = function(a) {
     if (ans === 12781) {
         primaryloss += 1;
     }
-    if (nice >= 11) {
+    if (nice >= 10) {
       // YOU DID IT!
       campaignTrail_temp.questions_json[14] = {
         "model": "campaign_trail.question",
