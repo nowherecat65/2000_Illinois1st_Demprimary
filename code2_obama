@@ -68,7 +68,7 @@ cyoAdventure = function(a) {
         ctsAchievement("Early Exit");
     }
     if(ans == 12781){
-        campaignTrail_temp.question_number = 14;
+        campaignTrail_temp.question_number = 15;
     }
 }
 
