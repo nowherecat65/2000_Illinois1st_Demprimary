@@ -1121,6 +1121,22 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 128501,
+        "fields": {
+            "question": 12848,
+            "description": "Education: We, uh, need to do more for young people on the South Side, starting with access to good schools, like right here at Simeon Career Academy, with safe buildings and great teachers. It's also imperative that we pursue partnerships with Kennedy-King and local employers to expand apprenticeships."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1285012,
+        "fields": {
+            "question": 12848,
+            "description": "Jobs and justice: When I was a community organizer during the height of Reaganomics, I helped displaced workers in neighborhoods struggling after steel mill closures. I lobbied City Hall to build an employment center, and I led a sit-in to demand asbestos cleanup in two public housing projects. Now, I’m not Superman. It wasn’t just me. But I stood with folks and used my voice to lift up their struggles. I want to do the same as your congressman."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 12856,
         "fields": {
             "question": 12855,
@@ -3409,6 +3425,26 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12854,
         "fields": {
+            "answer": 128501,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12854,
+        "fields": {
+            "answer": 1285012,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": 0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12854,
+        "fields": {
             "answer": 12849,
             "candidate": 91,
             "affected_candidate": 91,
@@ -4736,6 +4772,36 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 36,
             "issue_score": 0.2,
             "issue_importance": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12853,
+        "fields": {
+            "answer": 128501,
+            "issue": 34,
+            "issue_score": -0.05,
+            "issue_importance": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12853,
+        "fields": {
+            "answer": 1285012,
+            "issue": 34,
+            "issue_score": 0.15,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12853,
+        "fields": {
+            "answer": 1285012,
+            "issue": 36,
+            "issue_score": 0.15,
+            "issue_importance": 0.5
         }
     },
     {
@@ -6670,6 +6736,24 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 12850,
             "candidate": 91,
             "answer_feedback": "As you get more and more comfortable campaigning across the District, you find that nothing puts you in your element quite like discussing healthcare. It’s clearly a passion of yours, and the crowd before you, not to mention most voters, seems to be picking up on it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12852,
+        "fields": {
+            "answer": 128501,
+            "candidate": 91,
+            "answer_feedback": "With your background as a professor and, of course, a community organizer, you have no problem speaking about getting folks apprenticeships and making sure kids go to good, safe schools. Despite your best intentions, though, the Rush campaign has picked up a new angle: ''Obama supports school vouchers,'' thanks to your remarks about local schools 'not working for kids in poverty.' It would be funny if they weren't so desperate."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12852,
+        "fields": {
+            "answer": 1285012,
+            "candidate": 91,
+            "answer_feedback": "You speak with great passion, and your convictions are obvious to anyone listening at the rally. Let’s hope the rest of the voters see it the same way and aren’t wooed by the ugly caricature of you now being eagerly presented by the Rush campaign."
         }
     },
     {
