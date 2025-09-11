@@ -16,6 +16,54 @@ cyoAdventure = function(a) {
     if (ans === 12781) {
         primaryloss += 1;
     }
+    if (nice >= 12) {
+      // YOU DID IT!
+      campaignTrail_temp.questions_json[14] = {
+        "model": "campaign_trail.question",
+        "pk": 40037,
+        "fields": {
+          "priority": 1,
+          "description": "You wake up early in the morning to the sound of your bedside phone ringing. It’s Dan Shomon, your campaign manager. Apparently, the Tribune is set to publish an article detailing the failed overtures from the Rush campaign to gain the endorsement and visible support of President Clinton. It appears, given your strong campaign, that the President is surprisingly not weighing in. This is obviously terrible news for Rush. Is there anything you want to do with the story, breaking any minute now?",
+          "likelihood": 1
+        }
+      }
+    }
+    if (ans === 12763) {
+        nice += 1;
+    }
+    if (ans === 12774) {
+        nice += 1;
+    }
+    if (ans === 12875) {
+        nice += 1;
+    }
+    if (ans === 12861) {
+        nice += 1;
+    }
+    if (ans === 12836) {
+        nice += 1;
+    }
+    if (ans === 12828) {
+        nice += 1;
+    }
+    if (ans === 12823) {
+        nice += 1;
+    }
+    if (ans === 12812) {
+        nice += 1;
+    }
+    if (ans === 12803) {
+        nice += 1;
+    }
+    if (ans === 128071) {
+        nice -= 5;
+    }
+    if (ans === 127992) {
+        nice += 1;
+    }
+    if (ans === 12777) {
+        nice += 1;
+    }
     if (primaryloss == 1) {
         ctsAchievement("Early Exit");
     }
@@ -25,6 +73,7 @@ cyoAdventure = function(a) {
 }
 
 var primaryloss = 0;
+var nice = 0;
 
 campaignTrail_temp.questions_json = [
     {
@@ -131,7 +180,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12865,
         "fields": {
             "priority": 11,
-            "description": "''Chicago Tonight'' on WTTW is hosting a debate! Unlike your last one, Congressman Rush is expected to attend, while the barely alive Roby campaign is being excluded. Needless to say, the stakes are noticeably higher. How do you want to approach this?",
+            "description": "''Chicago Tonight'' on WTTW is hosting a debate! Unlike your last one, Congressman Rush is expected to attend, along with Donne Trotter, while the barely alive Roby campaign is being excluded. Needless to say, the stakes are noticeably higher. How do you want to approach this?",
             "likelihood": 1
         }
     },
@@ -149,16 +198,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12889,
         "fields": {
             "priority": 13,
-            "description": "The national general election is ongoing beside you, and the Democratic nominee, Senator George McGovern, is seemingly going to lose in a landslide. What will be your stance on the national campaign?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 12899,
-        "fields": {
-            "priority": 14,
-            "description": "Breaking news from the Beltway: A group of men, connected to the Committee to Re-elect the President, has been connected to the break-in at the Democratic National Committee in the Watergate Complex.",
+            "description": "After a string of Death Row exonerations, Gov. George Ryan has declared a statewide moratorium on executions. Reporters want your position on this news and what you’d push for in Congress. Do you want to address this or keep your focus on local issues instead?",
             "likelihood": 1
         }
     },
@@ -166,8 +206,17 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 129031,
         "fields": {
+            "priority": 14,
+            "description": "Just a few days after the coveted endorsement from the Tribune, sad news has befallen your campaign. Apparently in response to the momentum your campaign now enjoys, Congressman Rush has pulled out the big guns, or rather the biggest gun in the world: President Bill Clinton, along with Vice President Al Gore, has stepped into the race and endorsed him. With only a few days until Election Day, this is obviously terrible news. Is there anything you want to do?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 12903133,
+        "fields": {
             "priority": 15,
-            "description": "Boggs has seemingly caved to your pressure - you’ve been invited to a debate with him at a small civic association. What will your angle be?",
+            "description": "You’ve been caught up in this race, whether preparing to run or actually running, for roughly the last six months. But you’re finally here for the last campaign event at the Ogden Park Fieldhouse before the primary contest results come pouring in. What message do you want to close your campaign with?",
             "likelihood": 1
         }
     }
@@ -1179,7 +1228,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12866,
         "fields": {
             "question": 12865,
-            "description": "This is fantastic. I’d love to meet up with him - tell him to get down here as fast as possible."
+            "description": "I want to take a direct approach toward Congressman Rush. It’s now or never. I intend to confront him over the cynical and destructive campaign he has run. It’s imperative that viewers know I am the candidate for change in this race, and that Rush is the candidate of more of the same."
         }
     },
     {
@@ -1187,7 +1236,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12869,
         "fields": {
             "question": 12865,
-            "description": "When Sen. Kennedy gets here, I’ll be sure to use his presence to emphasize my support for healthcare. I still believe in a comprehensive national healthcare program - I want to make it work, and I want to be trusted to try."
+            "description": "Uh, let me be clear: I am not going to engage in a gladiator match on that stage. I’ll open by recognizing Congressman Rush’s service and even his run against Mayor Daley, emphasizing that no incumbent is above challenge. I’ll focus on what I want to do: more neighborhood clinics, more jobs, and a broader, brighter coalition."
         }
     },
     {
@@ -1195,7 +1244,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12875,
         "fields": {
             "question": 12865,
-            "description": "I extend a cordial invitation to Senator Kennedy, but make no mistake - I ain’t a Camelot dreamer. I’m a moderate Democrat."
+            "description": "It's obvious. I want to focus attention on the city’s so-called ''Plan for Transformation'' If I’m elected to Congress, I pledge to launch congressional hearings and provide direct oversight from my congressional office. We cannot sit idly by while poor and working people’s homes are taken from them. I will fight for these good people."
         }
     },
     {
@@ -1211,7 +1260,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12891,
         "fields": {
             "question": 12889,
-            "description": "I’m not as liberal as most people think, and I’m not gonna talk about things like marijuana because it distracts from what I really want to do - addressing pocketbook issues like crime, taxes, and social security."
+            "description": "Of course I back the moratorium, but this is only the tip of the iceberg. We need to fix the system. In Congress, I’ll push for common-sense reforms like videotaped interrogations, expanded DNA testing, and federal grants that reward states for preventing wrongful convictions."
         }
     },
     {
@@ -1219,7 +1268,15 @@ campaignTrail_temp.answers_json = [
         "pk": 12895,
         "fields": {
             "question": 12889,
-            "description": "How about this? Instead of attaching myself to McGovern, let’s attach Boggs to Nixon. He’s winning Delaware, but his conduct - especially in Vietnam - is unpopular here."
+            "description": "I welcome the governor’s pause, and I’ll review any reforms that reach Congress, but, uh, this race is about what South Side families need now: better jobs, new clinics, and great schools."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 128951,
+        "fields": {
+            "question": 12889,
+            "description": "Abolish the death penalty. There are too many exonerations, too much bias, and too many irreparable mistakes. I will back federal legislation to end capital punishment and support life without parole as the alternative. Right now, I can’t think of a more important step."
         }
     },
     {
@@ -1228,6 +1285,54 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 12899,
             "description": "This shows what’s wrong with our country - President Nixon doesn’t believe in the Bill of Rights and the rule of law. They claim the right to tap the phones of law-abiding citizens, but fail to enforce the law against John Mitchell’s Committee."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12900251,
+        "fields": {
+            "question": 40037,
+            "description": "Uhh, well, Jesus. We still have a few days to go, right? The news keeps getting better and better. I really think we’re going to pull this thing off. But let’s finish strong on the ground too."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12900255,
+        "fields": {
+            "question": 12903133,
+            "description": "You know, this has been an amazing experience, and one I’ve learned a lot from. And, uh, you know, I want to thank my wife, Michelle, for sticking by me during this campaign. I think everyone who got to know her over the course of this great campaign began to, uh, wonder why she wasn’t running."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 129002552,
+        "fields": {
+            "question": 12903133,
+            "description": "I honor Congressman Rush’s years of service, but tonight and, uh, throughout this campaign, I’ve been asking us to raise our expectations. I know the horse race is what the papers tend to talk about, but I’m still focused on the issues and on what I know I can deliver for this district."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 129002551,
+        "fields": {
+            "question": 12903133,
+            "description": "This, uh, choice that you and thousands of other people around this great district are about to make is about the next decade, even the next century that awaits us. That’s what this campaign has always been about, and I’m really thankful for the opportunity I’ve been given to run."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1290025,
+        "fields": {
+            "question": 129031,
+            "description": "Let me be clear: I have a lot of respect for the President and the Vice President, and for the work they’ve done during their time in office. But this campaign has always been about change, and nothing illustrates it better than this. I urge the good people of this district to vote for that change."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1290026,
+        "fields": {
+            "question": 129031,
+            "description": "There’s nothing we <em>can</em> do here. I guess we’ll just, uh, hit the trail hard in the coming days and hope for the best on Election Day."
         }
     },
     {
@@ -1733,7 +1838,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 93,
             "state": 234,
-            "state_multiplier": 0.025650
+            "state_multiplier": 0.024151
         }
     },
     {
@@ -1742,7 +1847,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 94,
             "state": 234,
-            "state_multiplier": 0.120500
+            "state_multiplier": 0.116861
         }
     }
 ]
@@ -3524,8 +3629,18 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 12866,
             "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": -0.032
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12867,
+        "fields": {
+            "answer": 12866,
+            "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.005
+            "global_multiplier": 0.008
         }
     },
     {
@@ -3535,7 +3650,27 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12869,
             "candidate": 91,
             "affected_candidate": 91,
+            "global_multiplier": 0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12873,
+        "fields": {
+            "answer": 12869,
+            "candidate": 91,
+            "affected_candidate": 92,
             "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12873,
+        "fields": {
+            "answer": 12875,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": 0.025
         }
     },
     {
@@ -3555,7 +3690,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12878,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.2
+            "global_multiplier": 0.169
         }
     },
     {
@@ -3565,7 +3700,67 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12878,
             "candidate": 91,
             "affected_candidate": 93,
-            "global_multiplier": -0.1
+            "global_multiplier": -0.16
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 1290026,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": 0.1825
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 1290026,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": -0.13
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 1290026,
+            "candidate": 91,
+            "affected_candidate": 94,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 1290026,
+            "candidate": 91,
+            "affected_candidate": 93,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 12900251,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": -0.177
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 12900251,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": 0.147
         }
     },
     {
@@ -3575,7 +3770,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12878,
             "candidate": 91,
             "affected_candidate": 94,
-            "global_multiplier": -0.15
+            "global_multiplier": -0.21
         }
     },
     {
@@ -3585,7 +3780,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12878,
             "candidate": 91,
             "affected_candidate": 92,
-            "global_multiplier": -0.2
+            "global_multiplier": -0.169
         }
     },
     {
@@ -3612,10 +3807,40 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12897,
         "fields": {
+            "answer": 128951,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12897,
+        "fields": {
             "answer": 12895,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.003
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12897,
+        "fields": {
+            "answer": 12895,
+            "candidate": 91,
+            "affected_candidate": 94,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12897,
+        "fields": {
+            "answer": 12895,
+            "candidate": 91,
+            "affected_candidate": 93,
+            "global_multiplier": 0.02
         }
     },
     {
@@ -3626,6 +3851,96 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 91,
             "affected_candidate": 92,
             "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 12900255,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 129002551,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": 0.0026
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 129002551,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": -0.0025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 129002552,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": -0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 129002552,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": -0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 1290025,
+            "candidate": 91,
+            "affected_candidate": 92,
+            "global_multiplier": 0.175
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 1290025,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": -0.12
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 1290025,
+            "candidate": 91,
+            "affected_candidate": 94,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12902,
+        "fields": {
+            "answer": 1290025,
+            "candidate": 91,
+            "affected_candidate": 93,
+            "global_multiplier": -0.05
         }
     },
     {
@@ -3863,6 +4178,36 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
+        "pk": 1102,
+        "fields": {
+            "answer": 12900255,
+            "issue": 34,
+            "issue_score": 0.1,
+            "issue_importance": 0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1102,
+        "fields": {
+            "answer": 129002551,
+            "issue": 33,
+            "issue_score": 0.1,
+            "issue_importance": 0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1102,
+        "fields": {
+            "answer": 129002552,
+            "issue": 33,
+            "issue_score": 0.1,
+            "issue_importance": 0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
         "pk": 1104,
         "fields": {
             "answer": 3546,
@@ -3919,6 +4264,56 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 36,
             "issue_score": -0.15,
             "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1109,
+        "fields": {
+            "answer": 12891,
+            "issue": 32,
+            "issue_score": 0.33,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1109,
+        "fields": {
+            "answer": 128951,
+            "issue": 32,
+            "issue_score": 0.48,
+            "issue_importance": 1.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1109,
+        "fields": {
+            "answer": 12895,
+            "issue": 32,
+            "issue_score": -0.2,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1109,
+        "fields": {
+            "answer": 12895,
+            "issue": 33,
+            "issue_score": 0.2,
+            "issue_importance": 0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1109,
+        "fields": {
+            "answer": 12895,
+            "issue": 34,
+            "issue_score": 0.2,
+            "issue_importance": 0.25
         }
     },
     {
@@ -4118,6 +4513,36 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 12820,
             "issue": 32,
             "issue_score": 0.1,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1123,
+        "fields": {
+            "answer": 12900251,
+            "issue": 34,
+            "issue_score": -0.01,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1123,
+        "fields": {
+            "answer": 1290025,
+            "issue": 34,
+            "issue_score": 0.2,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1123,
+        "fields": {
+            "answer": 1290026,
+            "issue": 34,
+            "issue_score": 0.35,
             "issue_importance": 0.5
         }
     },
@@ -4937,7 +5362,17 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12866,
             "issue": 34,
-            "issue_score": 0.4,
+            "issue_score": 0.25,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12868,
+        "fields": {
+            "answer": 12875,
+            "issue": 34,
+            "issue_score": 0.51,
             "issue_importance": 1
         }
     },
@@ -4946,9 +5381,19 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 12874,
         "fields": {
             "answer": 12869,
-            "issue": 33,
-            "issue_score": 0.5,
-            "issue_importance": 1
+            "issue": 34,
+            "issue_score": 0.1,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12874,
+        "fields": {
+            "answer": 12869,
+            "issue": 36,
+            "issue_score": 0.1,
+            "issue_importance": 0.5
         }
     },
     {
@@ -6895,7 +7340,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12866,
             "candidate": 91,
-            "answer_feedback": "Ted Kennedy meets you in St. Anthony’s Roman Catholic Church in Wilmington, and for the next week, shows up at your campaign events across the state, energizing youth voters."
+            "answer_feedback": "Whoa. It’s like a whole 'nother Barack Obama emerged from within you. You spent nearly all your time slamming Rush’s tenure on issues ranging from coalition building to his lack of focus on the district, following his failed bid for the mayorship last year. While Donne Trotter, still middling in third place, spoke, you and Rush traded glances, both faces steely, as if you were Rocky Balboa and Apollo Creed. Needless to say, it made for great television and fodder for the papers."
         }
     },
     {
@@ -6904,7 +7349,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12869,
             "candidate": 91,
-            "answer_feedback": "This is the energy voters are looking for. You pound the pulpit with Kennedy in tow, at least until he returns to Massachusetts."
+            "answer_feedback": "You got your way. The debate was relaxed, civil, and boring, and it largely focused on the issues. That didn’t stop Congressman Rush from taking a few shots at you. For one, he brought up your ''knocking off'' Alice Palmer, the incumbent state senator you beat in the Democratic primary back in ’96. Though you felt good about your performance and the fact you said what you wanted to say, the coverage was largely inconclusive and uninterested."
         }
     },
     {
@@ -6913,7 +7358,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12875,
             "candidate": 91,
-            "answer_feedback": "This repudiation of Kennedy causes him to regret stumping for you. You meet him, but voters cannot help but notice his lack of energy."
+            "answer_feedback": "While Rush came to the debate and kept things relatively light, you seemed to be on an upper, passionately speaking about the city’s controversial ''Plan for Transformation'' in a way your team wasn’t used to seeing from you. Though you were allotted roughly equal time, each time your opponents spoke it felt like they were battling for time and space on the screen with you, as if you were above and beyond them. This can only mean good things, Barack."
         }
     },
     {
@@ -6956,9 +7401,18 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 12892,
         "fields": {
+            "answer": 128951,
+            "candidate": 91,
+            "answer_feedback": "While this sort of position might be risky downstate, it’s certainly not controversial in the 1st District. While the idea of a freshman congressman running the table as you’re describing is highly unlikely, people sure like the sound of it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12892,
+        "fields": {
             "answer": 12891,
             "candidate": 91,
-            "answer_feedback": "This works well. Avoiding the culture war and focusing on what you really care about builds up your image."
+            "answer_feedback": "This is perfectly sound, especially given that the 1st District, with its largely working-class and poor Black population, has seen its fair share of mishandling of justice. Still, some activists are wondering why you didn’t plainly call for a permanent ban on the death penalty, perhaps at the federal level."
         }
     },
     {
@@ -6967,97 +7421,61 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12895,
             "candidate": 91,
-            "answer_feedback": "While some recoil at the attacking ads you make towards Boggs, you’re not wrong in that tying him to some of Nixon’s more unpopular agendas hurts him. Still, though, Nixon is winning Delaware no matter what, so the effect is smaller than you expected."
+            "answer_feedback": "Why are you pivoting, Barack? Crime, justice, and the death penalty are big issues, especially in a congressional district with so many underserved Black residents. This isn’t a terrible gaffe, but you still sound like you have something to hide. Why?"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 12901,
         "fields": {
-            "answer": 12900,
+            "answer": 12900255,
             "candidate": 91,
-            "answer_feedback": "While this doesn’t hurt Boggs much, the Watergate break-in reinforces your image of being a man voters can trust."
+            "answer_feedback": "After your speech, you make your way to the Ramada Inn, where you’ll watch the results come in with your team, friends, and supporters. Good luck!"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 12905,
+        "pk": 12901,
         "fields": {
-            "answer": 12904,
+            "answer": 129002551,
             "candidate": 91,
-            "answer_feedback": "This is a debate at a small local venue, and most voters who’ll be watching it on television are not the youth you want to appeal to."
+            "answer_feedback": "After your speech, you make your way to the Ramada Inn, where you’ll watch the results come in with your team, friends, and supporters. Good luck!"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 12907,
+        "pk": 12901,
         "fields": {
-            "answer": 12906,
+            "answer": 129002552,
             "candidate": 91,
-            "answer_feedback": "You find common ground with Boggs on many of these issues, but your willingness to buck the liberal consensus, as seen in your stances, is appealing to a wider range of voters."
+            "answer_feedback": "After your speech, you make your way to the Ramada Inn, where you’ll watch the results come in with your team, friends, and supporters. Good luck!"
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 12911,
+        "pk": 12901,
         "fields": {
-            "answer": 12910,
+            "answer": 1290025,
             "candidate": 91,
-            "answer_feedback": "You’ve used this attack before, and it worked decently well. It still works here, although you could have done something different.\n"
+            "answer_feedback": "Smooth line, Barack, but regardless of how you try to spin it, this is terrible for our campaign... It may very well be the death knell. It seems that the mountain of advantages Rush has in funds, name recognition, and political connections has proved too much for you to overcome."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 12915,
+        "pk": 12901,
         "fields": {
-            "answer": 12914,
+            "answer": 12900251,
             "candidate": 91,
-            "answer_feedback": "You are correct in assuming that most people see through this."
+            "answer_feedback": "As you wake up, shower, shave, get your coffee, and begin to hit the streets, you find yourself almost unable to stop smiling. This, along with the recent Tribune endorsement, has uprooted the entire race. You’ve had private misgivings about Bill Clinton’s character and political style, but this morning you can’t think of another person you like more than the current resident of the White House."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 12917,
+        "pk": 12901,
         "fields": {
-            "answer": 12916,
+            "answer": 1290026,
             "candidate": 91,
-            "answer_feedback": "Witty. This reply gets in the papers and embarrasses the Republicans."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 12920,
-        "fields": {
-            "answer": 12919,
-            "candidate": 91,
-            "answer_feedback": "You may have gone a bit overboard - many see this as an overreaction."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 12926,
-        "fields": {
-            "answer": 12925,
-            "candidate": 91,
-            "answer_feedback": "Steen leaves, and you are left standing alone outside your beat-up Chevelle."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 12928,
-        "fields": {
-            "answer": 12924,
-            "candidate": 91,
-            "answer_feedback": "Steen is disappointed. While the event goes ahead, he doesn’t see or talk to you in the months to come."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 12930,
-        "fields": {
-            "answer": 12923,
-            "candidate": 91,
-            "answer_feedback": "<q>We’ll just have to go with that,</q> says Steen, fighting back a grimace. Yet in the hearts of voters there is a new respect for you, which shows at your coffee talks."
+            "answer_feedback": "While you try to get your mind off the news and hit the trail, this is terrible for our campaign... It may very well be the death knell. It seems that the mountain of advantages Rush has in funds, name recognition, and political connections has proved too much for you to overcome."
         }
     },
     {
@@ -7085,42 +7503,6 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 12941,
             "candidate": 91,
             "answer_feedback": "This works, somehow. Connecting yourself to a Whig from the 19th century silences Republican attacks on your age."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 12944,
-        "fields": {
-            "answer": 12943,
-            "candidate": 91,
-            "answer_feedback": "Your approval with youth has reached its ceiling, Valerie thinks. You end up alienating older voters with this."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 12950,
-        "fields": {
-            "answer": 12949,
-            "candidate": 91,
-            "answer_feedback": "Sure enough, the accusations pass by, and by the next day, people have seemingly forgotten about it."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 12952,
-        "fields": {
-            "answer": 12951,
-            "candidate": 91,
-            "answer_feedback": "Your admission of this position on Israel shocks Zionist voters, who are turning to Boggs."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 12958,
-        "fields": {
-            "answer": 12957,
-            "candidate": 91,
-            "answer_feedback": "Livingston, furious, lambasts you for your overreaction in the papers, and this response does not play well with voters."
         }
     },
     {
